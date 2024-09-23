@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> OmniBench: Towards The Future of Universal Omni-Language Models</title>
 
-    <link rel="icon" href="./static/images/logo.png">
+    <link rel="icon" href="./static/images/logo.jpg">
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -63,7 +63,7 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title is-bold">
-                <img src="static/images/logo.png" style="width:1em;vertical-align: middle" alt="Logo"/>
+                <img src="static/images/logo.jpg" style="width:1em;vertical-align: middle" alt="Logo"/>
                 <span class="omnibench" style="vertical-align: middle">OmniBench</span>
               </h1>
               <h2 class="subtitle is-3 publication-subtitle">
@@ -137,26 +137,20 @@
                     </a>
                   </span>
                   <span class="link-block">
-                    <a href="https://huggingface.co/datasets/MMMU/MMMU_Pro" class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://huggingface.co/datasets/m-a-p/OmniBench" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon" style="font-size:18px">🤗</span>
-                      <span>MMMU-Pro</span>
+                      <span>OminiBench</span>
                     </a>
                   </span>
                   <span class="link-block">
-                    <a href="https://huggingface.co/datasets/MMMU/MMMU" class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon" style="font-size:18px">🤗</span>
-                      <span>MMMU</span>
-                    </a>
-                  </span>
-                  <span class="link-block">
-                    <a href="https://github.com/MMMU-Benchmark/MMMU" class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://github.com/multimodal-art-projection/OmniBench" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
                       <span>Code</span>
                     </a>
                   </span>
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="#leaderboard" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon has-text-white">
                         <i class="fa-solid fa-trophy"></i>
@@ -179,9 +173,9 @@
                       </span>
                       <span>Twitter</span>
                     </a>
-                  </span>
+                  </span> -->
                   <span class="link-block">
-                    <a href="#examples" class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://m-a-p.ai/OmniBench/#examples" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon has-text-white">
                         <i class="fa-solid fa-book"></i>
                       </span>
@@ -195,19 +189,198 @@
         </div>
       </div>
     </section>
-
     <section class="hero teaser">
       <div class="container is-max-desktop has-text-centered">
-        <img src="static/images/overview_mmlu.Jpeg" alt="geometric reasoning">
-        <p>Overview of the MMMU dataset. MMMU presents four challenges:
+        <!-- <img src="static/images/" alt="geometric reasoning"> -->
+        <img src="static/images/category_example.jpg" alt="category_example" class="center" style="width: 150%; height: auto;">
+        <!-- YIZHI --> 
+        <!-- <p>Overview of the MMMU dataset. MMMU presents four challenges:
           1) <b>comprehensiveness</b>: 11.5K college-level problems across six broad disciplines and 30 college subjects;
           2) highly <b>heterogeneous</b> image types;
           3) <b>interleaved</b> text and images;
           4) <b>expert-level</b> perception and reasoning rooted in deep subject knowledge.
-        </p>
+        </p> -->
       </div>
     </section>
 
+    <style>
+      .container {
+          max-width: 800px !important; 
+          margin: 0 auto;
+      }
+      .columns {
+          margin: -0.5rem; 
+      }
+      .column {
+          padding: 0.5rem;
+      }
+      .column.is-half {
+          width: 50%;
+          flex: none;
+      }
+      .card {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+      }
+      .image-container {
+          width: 100%;
+          aspect-ratio: 4 / 3; 
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f5f5f5;
+      }
+      .image-container img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+      }
+      .card-content {
+          padding: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+      }
+      .audio-item .title.is-4 {
+          font-size: 0.9rem;
+          margin-bottom: 0.3rem;
+      }
+      audio {
+          width: 100%;
+          height: 30px;
+          margin-top: auto;
+      }
+  </style>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container" style="margin-bottom: 1vh;">
+                <div class="columns is-centered has-text-centered">
+                    <h1 class="subtitle is-4 publication-subtitle">Sample Audios with Images</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top: 1rem; padding-bottom: 1rem;">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/action_and_activity.jpg" alt="Action and Activity">
+                            </div>
+                            <h3 class="title is-4">Action and Activity</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/action_and_activity.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/contextual_and_environmental.jpg" alt="Contextual and Environmental">
+                            </div>
+                            <h3 class="title is-4">Contextual and Environmental</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/contextual_and_environmental.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/count_and_quantity.jpg" alt="Count and Quantity">
+                            </div>
+                            <h3 class="title is-4">Count and Quantity</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/count_and_quantity.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/identity_and_relationship.jpg" alt="Identity and Relationship">
+                            </div>
+                            <h3 class="title is-4">Identity and Relationship</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/identity_and_relationship.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/object_identification_and_description.jpg" alt="Object Identification and Description">
+                            </div>
+                            <h3 class="title is-4">Object Identification and Description</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/object_identification_and_description.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/plot_inference.jpg" alt="Plot Inference">
+                            </div>
+                            <h3 class="title is-4">Plot Inference</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/plot_inference.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/story_description.jpg" alt="Story Description">
+                            </div>
+                            <h3 class="title is-4">Story Description</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/story_description.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card audio-item">
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="static/images/examples/text_and_symbols.jpg" alt="Text and Symbols">
+                            </div>
+                            <h3 class="title is-4">Text and Symbols</h3>
+                            <audio controls>
+                                <source src="static/images/sample_audios/text_and_symbols.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="section">
       <div class="container" style="margin-bottom: 2vh;">
         <!-- Abstract. -->
@@ -235,7 +408,7 @@
     <section class="hero is-light is-small">
       <div class="hero-body has-text-centered">
         <h1 class="title is-1 mmmu">
-          <img src="static/images/mmmu_icon2.png" alt="Logo" class="mmmu-logo"/>
+          <img src="static/images/logo.jpg" alt="Logo" class="mmmu-logo"/>
           <span class="mmmu">MMMU Benchmark</span>
         </h1>
       </div>
@@ -250,19 +423,22 @@
               <p>
                 We introduce the Massive Multi-discipline Multimodal Understanding and Reasoning (MMMU) benchmark, a novel benchmark meticulously curated to assess the expert-level multimodal understanding capability of foundation models across a broad scope of tasks. Covering subjects across disciplines, including Art, Business, Health & Medicine, Science, Humanities & Social Science, and Tech & Engineering, and over subfields. The detailed subject coverage and statistics are detailed in the figure. The questions in our benchmark were manually collected by a team of college students (including coauthors) from various disciplines and subjects, drawing from online sources, textbooks, and lecture materials.
               </p>
-              <img src="static/images/mmlu_example.Jpeg" alt="algebraic reasoning" class="center">
+              <!-- <img src="static/images/category_example.jpg" alt="category_example" class="center"> -->
+              <img src="static/images/annotation_scheme.jpg" alt="annotations" class="center" style="width: 150%; height: auto;">
               <br>
               <p>
-                 MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these models can not only perceive and understand information across different modalities but also apply reasoning with subject-specific knowledge to derive the solution.
+        <!-- YIZHI --> 
+                 <!-- MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these models can not only perceive and understand information across different modalities but also apply reasoning with subject-specific knowledge to derive the solution. -->
               </p>
               <p>
-                Our MMMU benchmark introduces key challenges to multimodal foundation models, as detailed in a figure. Among these, we particularly highlight the challenge stemming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subject-specific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model's adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, calling for an advanced approach that integrates advanced multimodal analysis with domain-specific knowledge.
+        <!-- YIZHI --> 
+                <!-- Our MMMU benchmark introduces key challenges to multimodal foundation models, as detailed in a figure. Among these, we particularly highlight the challenge stemming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subject-specific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model's adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, calling for an advanced approach that integrates advanced multimodal analysis with domain-specific knowledge. -->
               </p>
             </div>
           </div>
         </div>
 
-        <div class="columns is-centered has-text-centered">
+        <!-- <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
             <h2 class="title is-3">Comparisons with Existing Benchmarks</h2>
             <div class="content has-text-justified">
@@ -280,7 +456,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="columns is-centered m-6">
           <div class="column is-full has-text-centered content">
@@ -288,19 +464,19 @@
             <div class="carousel results-carousel">
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="static/images/mmmu_subject_distribution.Jpeg" alt="algebraic reasoning" width="95%"/>
+                  <img src="static/images/inspection_distribution.jpg" alt="algebraic reasoning" width="95%"/>
                   <p> Sampled MMMU examples from each discipline. The questions and images need expert-level knowledge to understand and reason.</p>
                 </div>
               </div>
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="static/images/statistics.png" alt="arithmetic reasoning" width="40%"/>
+                  <img src="static/images/data_distribution.jpg" alt="arithmetic reasoning" width="120%"/>
                   <p> Key statistics of the MMMU benchmark</p>
                 </div>
               </div>
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="static/images/image_type_count.png" alt="arithmetic reasoning" width="80%"/>
+                  <img src="static/images/table.jpg" alt="arithmetic reasoning" width="100%"/>
                   <p> Distribution of image types in the MMMU dataset</p>
                 </div>
               </div>
@@ -325,11 +501,12 @@
             <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
             <div class="content has-text-justified">
               <p>
-                We evaluate various models including LLMs and LMMs.
+        <!-- YIZHI --> 
+                <!-- We evaluate various models including LLMs and LMMs.
                 In each type, we consider both closed- and open-source models.
                 Our evaluation is conducted under a zero-shot setting to assess the capability of models to generate accurate answers without fine-tuning or few-shot demonstrations on our benchmark.
                 For all models, we use the default prompt provided by each model for multi-choice or open QA, if available.
-                If models do not provide prompts for task types in MMMU, we conduct prompt engineering on the validation set and use the most effective prompt for the later zero-shot experiment.
+                If models do not provide prompts for task types in MMMU, we conduct prompt engineering on the validation set and use the most effective prompt for the later zero-shot experiment. -->
               </p>
             </div>
             <br>
@@ -341,324 +518,11 @@
             <br>
             <div class="content has-text-centered">
               <p>
-                Click on MMMU-Pro, MMMU (Val) or MMMU (Test) to expand detailed results.
+        <!-- YIZHI --> 
+                <!-- Click on MMMU-Pro, MMMU (Val) or MMMU (Test) to expand detailed results. -->
               </p>
             </div>
-            <div class="leaderboard-container">
-              <div class="table-wrapper">
-                <table id="mmmu-table">
-                  <thead>
-                    <tr>
-                      <th colspan="3" class="reset-cell clickable" style="text-align: center;">Reset</th>
-                      <th class="pro-details-cell clickable" colspan="1">MMMU-Pro</th>
-                      <th class="val-details-cell clickable" colspan="1">MMMU(Val)</th>
-                      <th class="test-details-cell clickable" colspan="1">MMMU(Test)</th>
-                    </tr>
-                    <tr>
-                      <th class="sortable clickable" data-sort="string">Name</th>
-                      <th class="clickable" data-sort="string">Size</th>
-                      <th class="sortable clickable" data-sort="date">Date</th>
-                      <th class="sortable clickable pro-overall" data-sort="number">Overall</th>
-                      <th class="hidden pro-details sortable clickable" data-sort="number">Vision</th>
-                      <th class="hidden pro-details sortable clickable" data-sort="number">Standard</th>
-                      <th class="sortable clickable val-overall" data-sort="number">Overall</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Art & Design</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Business</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Science</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Health & Medicine</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Human. & Social Sci.</th>
-                      <th class="hidden val-details sortable clickable" data-sort="number">Tech & Eng.</th>
-                      <th class="sortable clickable test-overall" data-sort="number">Overall</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Art & Design</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Business</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Science</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Health & Medicine</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Human. & Social Sci.</th>
-                      <th class="hidden test-details sortable clickable" data-sort="number">Tech & Eng.</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <!-- Table body will be populated dynamically -->
-                  </tbody>
-                </table>
-                <p class="test-desc"> Overall results of different models on the MMMU leaderboard. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>. *: results provided by the authors.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-------------------------------------------------------------------- Image Type SECTION -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-          <div class="column is-full has-text-centered content">
-            <h2 class="title is-3">Different Image Types</h2>
-            <div class="content has-text-justified">
-              <p>
-                We compare the performance of various models across top frequent image types.
-                Across all types, GPT-4V consistently outperforms the other models by a huge margin.
-                Open-source models demonstrate relatively strong performance in categories like Photos and Paintings, which are more frequently seen during training.
-                However, for less common image categories like Geometric shapes, Music sheets and Chemical structures, all models obtain very low scores (some are close to random guesses).
-                This indicates that the existing models are generalizing poorly towards these image types.
-              </p>
-            </div>
-            <div class="model-labels-container">
-              <span class="model-label" style="background-color: rgba(196, 123, 160, 0.5);">Adept Fuyu-8B</span>
-              <span class="model-label" style="background-color: rgba(245, 123, 113, 0.5);">Qwen-VL-7B-Chat</span>
-              <span class="model-label" style="background-color: rgba(255, 208, 80, 0.5);">LLaVA-1.5-13B</span>
-              <span class="model-label" style="background-color: rgba(110, 194, 134, 0.5);">InstructBLIP-T5-XXL</span>
-              <span class="model-label" style="background-color: rgba(255, 153, 78, 0.5);">BLIP-2 FLAN-T5-XXL</span>
-              <span class="model-label" style="background-color: rgba(42, 149, 235, 0.5);">Yi-VL-34B</span>
-              <span class="model-label" style="background-color: rgba(183, 156, 220, 0.5);">LLaVA-1.6-34B</span>
-              <span class="model-label" style="background-color: rgba(143, 169, 209, 0.5);">InternVL-Chat-V1.2</span>
-              <span class="model-label" style="background-color: rgba(72, 199, 176, 0.5);">VILA1.5</span>
-              <span class="model-label" style="background-color: rgba(117, 209, 215, 0.5);">GPT-4V</span>
-            </div>
-            <div class="content has-text-centered">
-              <div class="chart-grid">
-                <!-- Chart 1: Diagrams -->
-                <div class="chart-item">
-                    <canvas id="chart_Diagrams"></canvas>
-                    <p class="chart-label">Diagrams (3184)</p>
-                </div>
-                <!-- Chart 2: Tables -->
-                <div class="chart-item">
-                    <canvas id="chart_Tables"></canvas>
-                    <p class="chart-label">Tables (2267)</p>
-                </div>
-                <!-- Chart 3: Plots and Charts -->
-                <div class="chart-item">
-                  <canvas id="chart_PlotsAndCharts"></canvas>
-                  <p class="chart-label">Plots and Charts (840)</p>
-                </div>
-                <!-- Chart 4: Chemical Structures -->
-                <div class="chart-item">
-                  <canvas id="chart_ChemicalStructures"></canvas>
-                  <p class="chart-label">Chemical Structures (573)</p>
-                </div>
-                <!-- Chart 5: Photographs -->
-                <div class="chart-item">
-                  <canvas id="chart_Photographs"></canvas>
-                  <p class="chart-label">Photographs (770)</p>
-                </div>
-                <!-- Chart 6: Paintings -->
-                <div class="chart-item">
-                  <canvas id="chart_Paintings"></canvas>
-                  <p class="chart-label">Paintings (453)</p>
-                </div>
-                <!-- Chart 7: Geometric Shapes -->
-                <div class="chart-item">
-                  <canvas id="chart_GeometricShapes"></canvas>
-                  <p class="chart-label">Geometric Shapes (336)</p>
-                </div>
-                <!-- Chart 8: Sheet Music -->
-                <div class="chart-item">
-                  <canvas id="chart_SheetMusic"></canvas>
-                  <p class="chart-label">Sheet Music (335)</p>
-                </div>
-                <!-- Chart 9: Medical Images -->
-                <div class="chart-item">
-                  <canvas id="chart_MedicalImages"></canvas>
-                  <p class="chart-label">Medical Images (272)</p>
-                </div>
-                <!-- Chart 10: Pathological Images -->
-                <div class="chart-item">
-                  <canvas id="chart_PathologicalImages"></canvas>
-                  <p class="chart-label">Pathological Images (253)</p>
-                </div>
-                <!-- Chart 11: Microscopic Images -->
-                <div class="chart-item">
-                  <canvas id="chart_MicroscopicImages"></canvas>
-                  <p class="chart-label">Microscopic Images (226)</p>
-                </div>
-                <!-- Chart 12: MRI, CT scans, and X-rays -->
-                <div class="chart-item">
-                  <canvas id="chart_MRIsCTScansXrays"></canvas>
-                  <p class="chart-label">MRI, CT scans, and X-rays (198)</p>
-                </div>
-                <!-- Chart 13: Sketches and Drafts -->
-                <div class="chart-item">
-                  <canvas id="chart_SketchesAndDrafts"></canvas>
-                  <p class="chart-label">Sketches and Drafts (184)</p>
-                </div>
-                <!-- Chart 14: Maps -->
-                <div class="chart-item">
-                  <canvas id="chart_Maps"></canvas>
-                  <p class="chart-label">Maps (170)</p>
-                </div>
-                <!-- Chart 15: Technical Blueprints -->
-                <div class="chart-item">
-                  <canvas id="chart_TechnicalBlueprints"></canvas>
-                  <p class="chart-label">Technical Blueprints (162)</p>
-                </div>
-                <!-- Chart 16: Trees and Graphs -->
-                <div class="chart-item">
-                  <canvas id="chart_TreesAndGraphs"></canvas>
-                  <p class="chart-label">Trees and Graphs (146)</p>
-                </div>
-                <!-- Chart 17: Mathematical Notations -->
-                <div class="chart-item">
-                  <canvas id="chart_MathematicalNotations"></canvas>
-                  <p class="chart-label">Mathematical Notations (133)</p>
-                </div>
-                <!-- Chart 18: Comics and Cartoons -->
-                <div class="chart-item">
-                  <canvas id="chart_ComicsAndCartoons"></canvas>
-                  <p class="chart-label">Comics and Cartoons (131)</p>
-                </div>
-                <!-- Chart 19: Sculpture -->
-                <div class="chart-item">
-                  <canvas id="chart_Sculpture"></canvas>
-                  <p class="chart-label">Sculpture (117)</p>
-                </div>
-                <!-- Chart 20: Portraits -->
-                <div class="chart-item">
-                  <canvas id="chart_Portraits"></canvas>
-                  <p class="chart-label">Portraits (91)</p>
-                </div>
-                <!-- Chart 21: Screenshots -->
-                <div class="chart-item">
-                  <canvas id="chart_Screenshots"></canvas>
-                  <p class="chart-label">Screenshots (70)</p>
-                </div>
-                <!-- Chart 22: Other -->
-                <div class="chart-item">
-                  <canvas id="chart_Other"></canvas>
-                  <p class="chart-label">Other(60)</p>
-                </div>
-                <!-- Chart 23: Poster -->
-                <div class="chart-item">
-                  <canvas id="chart_Poster"></canvas>
-                  <p class="chart-label">Poster(57)</p>
-                </div>
-                <!-- Chart 24: Icons and Symbols -->
-                <div class="chart-item">
-                  <canvas id="chart_IconsAndSymbols"></canvas>
-                  <p class="chart-label">Icons and Symbols (42)</p>
-                </div>
-                <!-- Chart 25: Historical Timelines -->
-                <div class="chart-item">
-                  <canvas id="chart_HistoricalTimelines"></canvas>
-                  <p class="chart-label">Historical Timelines (30)</p>
-                </div>
-                <!-- Chart 26: 3D Renderings -->
-                <div class="chart-item">
-                  <canvas id="chart_3DRenderings"></canvas>
-                  <p class="chart-label">3D Renderings (21)</p>
-                </div>
-                <!-- Chart 27: DNA Sequences -->
-                <div class="chart-item">
-                  <canvas id="chart_DNASequences"></canvas>
-                  <p class="chart-label">DNA Sequences (20)</p>
-                </div>
-                <!-- Chart 28: Landscapes -->
-                <div class="chart-item">
-                  <canvas id="chart_Landscapes"></canvas>
-                  <p class="chart-label">Landscapes (16)</p>
-                </div>
-                <!-- Chart 29: Logos and Branding -->
-                <div class="chart-item">
-                  <canvas id="chart_LogosAndBranding"></canvas>
-                  <p class="chart-label">Logos and Branding(14)</p>
-                </div>
-                <!-- Chart 30: Advertisements -->
-                <div class="chart-item">
-                  <canvas id="chart_Advertisements"></canvas>
-                  <p class="chart-label">Advertisements (10)</p>
-                </div>
-              </div>
-              <p class="bottom-text"> Selected models' performance on 30 different image types. Note that a single image may have multiple image types.</p>
-            </div>
-          </div>
-        </div>
         <!-------------------------------------------------------------------- Difficulty Levels SECTION -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-          <div class="column is-full has-text-centered content">
-            <h2 class="title is-3">Different Difficulty Levels</h2>
-            <div class="content has-text-justified">
-              <p>
-                we compares the performance of selected models across three difficulty levels.
-                GPT-4V demonstrates a significantly higher proficiency, with a success rate of 76.1%, compared to opensource models in the “Easy” category.
-                When it comes to the “Medium” category, while the gap narrows, GPT-4V still leads at 55.6%.
-                The further diminishing performance gap in the “Hard” category across models indicates that as the complexity of tasks increases, the advantage of more advanced models like GPT-4V almost disappears.
-                This might reflect a current limitation in handling expert-level challenging queries even for the most advanced models.
-              </p>
-            </div>
-            <div class="content has-text-centered">
-              <p>Click legend to switch the comparison chart.</p>
-            </div>
-            <div class="content has-text-centered">
-              <canvas id="difficulty_level_chart"></canvas>
-              <p>Result decomposition across question difficulty levels.</p>
-            </div>
-          </div>
-        </div>
-      <!-------------------------------------------------------------------- Single VS Multiple image SECTION -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-        <div class="column is-full has-text-centered content">
-          <h2 class="title is-3">Single Image VS Multiple Image</h2>
-          <div class="content has-text-centered">
-            <div class="content has-text-centered">
-              <p>Click legend to switch the comparison chart.</p>
-            </div>
-            <canvas id="single_vs_multiple_chart"></canvas>
-            <p>Result decomposition across single image and multiple image tasks.</p>
-          </div>
-        </div>
-        </div>
-      <!-------------------------------------------------------------------- Error Analysis SECTION -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-          <div class="column is-full has-text-centered content">
-            <h2 class="title is-3">Error Analysis</h2>
-            <div class="content has-text-justified">
-              <p>
-                We delve into the analysis of errors by GPT-4V, a pivotal aspect for understanding its operational capabilities and limitations.
-                This analysis serves not only to identify the model's current shortcomings but also to guide future enhancements in its design and training.
-                We meticulously examine 150 randomly sampled error instances from GPT-4V's predictions.
-                These instances are analyzed by expert annotators who identify the root causes of mispredictions based on their knowledge and the golden explanations if available.
-                The distribution of these errors is illustrated in Figure, and a selection of 100 notable cases, along with detailed analyses, is included in the Appendix.
-              </p>
-            </div>
-            <div class="content has-text-centered">
-              <img src="static/images/error_distribution_1.Jpeg" alt="error distribution" width="25%">
-              <p> Error distribution over 150 annotated GPT-4V errors.</p>
-            </div>
-          </div>
-        </div>
-      <!-------------------------------------------------------------------- Error Example  -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-          <div class="column is-full has-text-centered content">
-            <h2 class="title is-3" id="examples">Error Examples</h2>
-            <div class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="static/images/error/1.png" alt="grade-lv" width="60%"/>
-                </div>
-              </div>
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="static/images/error/2.png" alt="grade-lv" width="60%"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-------------------------------------------------------------------- Correct Example -------------------------------------------------------------------->
-        <div class="columns is-centered m-6">
-          <div class="column is-full has-text-centered content">
-            <h2 class="title is-3">Correct Examples</h2>
-            <div id="results-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="static/images/correct/1.png" alt="grade-lv" width="60%"/>
-                </div>
-              </div>
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="static/images/correct/2.png" alt="grade-lv" width="60%"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- @PAN TODO: bibtex -->
@@ -666,12 +530,7 @@
       <div class="container is-max-desktop content">
         <h2 class="title is-3 has-text-centered">BibTeX</h2>
         <pre><code>
-          @inproceedings{yue2023mmmu,
-            title={MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI},
-            author={Xiang Yue and Yuansheng Ni and Kai Zhang and Tianyu Zheng and Ruoqi Liu and Ge Zhang and Samuel Stevens and Dongfu Jiang and Weiming Ren and Yuxuan Sun and Cong Wei and Botao Yu and Ruibin Yuan and Renliang Sun and Ming Yin and Boyuan Zheng and Zhenzhu Yang and Yibo Liu and Wenhao Huang and Huan Sun and Yu Su and Wenhu Chen},
-            booktitle={Proceedings of CVPR},
-            year={2024},
-          }
+        <!-- YIZHI --> 
     </code></pre>
       </div>
     </section>
