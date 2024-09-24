@@ -9,7 +9,6 @@ import re
 from tqdm import tqdm
 from inference.models.closed_source_model import GPT4oInferencer, Claude35Inferencer, GPT4VInference, \
             Gemini15ProInference, GPT4TurboInference, GPT4oMiniInference, GPT35turboInference, GPT4o_0806_Inferencer, GPT4TurboVisionInference, RekaInferencer
-
 from answer_parsing import parse_multi_choice_response
 from multiprocessing import Pool
 
@@ -81,7 +80,7 @@ def process_row(args_list):
     audio_transcript = f"Audio Content: {row['audio content']}" if args.audio_transcript else ""
     image_caption = f"Image Content: {row['image content']}" if args.image_caption else ""
     
-    prompt = create_prompt(args, question, options, audio_transcript, image_caption)  # Helper function to create the prompt
+    prompt = create_prompt(args, question, options, audio_transcript, image_caption) 
     
     response = None
     image_path = row['image_path']
