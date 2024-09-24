@@ -189,18 +189,27 @@
         </div>
       </div>
     </section>
-    <section class="hero teaser">
-      <div class="container is-max-desktop has-text-centered">
-        <!-- <img src="static/images/" alt="geometric reasoning"> -->
-        <img src="static/images/category_example.jpg" alt="category_example" class="center" style="width: 150%; height: auto;">
-        <!-- YIZHI --> 
-        <!-- <p>Overview of the MMMU dataset. MMMU presents four challenges:
-          1) <b>comprehensiveness</b>: 11.5K college-level problems across six broad disciplines and 30 college subjects;
-          2) highly <b>heterogeneous</b> image types;
-          3) <b>interleaved</b> text and images;
-          4) <b>expert-level</b> perception and reasoning rooted in deep subject knowledge.
-        </p> -->
-      </div>
+    <section class="section">
+      <div class="container" style="margin-bottom: 2vh;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">🔔News</h2>
+            <div class="content has-text-justified">
+              <p>
+                <b>🔥[2024-09-22]: We release the new benchmark for text, image, and audio large language models!</b>
+              </p>
+          </div>
+            <h2 class="title is-3">Introduction</h2>
+            <div class="content has-text-justified">
+              <p>
+                Recent advancements in multimodal large language models (MLLMs) have aimed to integrate and interpret data across diverse modalities. However, the capacity of these models to concurrently process and reason about multiple modalities remains inadequately explored, partly due to the lack of comprehensive modality-wise benchmarks. We introduce OmniBench, a novel benchmark designed to rigorously evaluate models' ability to recognize, interpret, and reason across visual, acoustic, and textual inputs simultaneously. We define models capable of such tri-modal processing as omniData -languOmniBench is distinguished by high-quality human annotations, ensuring that accurate responses require integrated understanding and reasoning across all three modalities. Our main findings reveal that: i) open-source OLMs exhibit critical limitations in instruction-following and reasoning capabilities within tri-modal contexts; and ii) these baseline models perform poorly (below 50% accuracy) even when provided with alternative textual representations of images and audio. These results suggest that the ability to construct a consistent context from text, image, and audio is often overlooked in existing MLLM training paradigms. We advocate for future research to focus on developing more robust tri-modal integration techniques and training strategies to enhance OLM performance across diverse modalities.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ Abstract. -->
+    </div>
     </section>
 
     <style>
@@ -257,7 +266,7 @@
         <div class="hero-body">
             <div class="container" style="margin-bottom: 1vh;">
                 <div class="columns is-centered has-text-centered">
-                    <h1 class="subtitle is-4 publication-subtitle">Sample Audios with Images</h1>
+                    <h1 class="subtitle is-4 publication-subtitle">Data Samples Across Categories</h1>
                 </div>
             </div>
         </div>
@@ -381,35 +390,13 @@
             </div>
         </div>
     </section>
-    <section class="section">
-      <div class="container" style="margin-bottom: 2vh;">
-        <!-- Abstract. -->
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">🔔News</h2>
-            <div class="content has-text-justified">
-              <p>
-                <b>🔥[2024-09-22]: We release the new benchmark for text, image, and audio large language models!</b>
-              </p>
-          </div>
-            <h2 class="title is-3">Introduction</h2>
-            <div class="content has-text-justified">
-              <p>
-                Recent advancements in multimodal large language models (MLLMs) have aimed to integrate and interpret data across diverse modalities. However, the capacity of these models to concurrently process and reason about multiple modalities remains inadequately explored, partly due to the lack of comprehensive modality-wise benchmarks. We introduce OmniBench, a novel benchmark designed to rigorously evaluate models' ability to recognize, interpret, and reason across visual, acoustic, and textual inputs simultaneously. We define models capable of such tri-modal processing as omni-language models (OLMs).OmniBench is distinguished by high-quality human annotations, ensuring that accurate responses require integrated understanding and reasoning across all three modalities. Our main findings reveal that: i) open-source OLMs exhibit critical limitations in instruction-following and reasoning capabilities within tri-modal contexts; and ii) these baseline models perform poorly (below 50\% accuracy) even when provided with alternative textual representations of images and audio. These results suggest that the ability to construct a consistent context from text, image, and audio is often overlooked in existing MLLM training paradigms. We advocate for future research to focus on developing more robust tri-modal integration techniques and training strategies to enhance OLM performance across diverse modalities.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--/ Abstract. -->
-    </div>
-    </section>
 
     <!-- DATASET SECTION -->
     <section class="hero is-light is-small">
       <div class="hero-body has-text-centered">
         <h1 class="title is-1 mmmu">
           <img src="static/images/logo.jpg" alt="Logo" class="mmmu-logo"/>
-          <span class="mmmu">MMMU Benchmark</span>
+          <span class="mmmu">OmniBench</span>
         </h1>
       </div>
     </section>
@@ -421,18 +408,22 @@
             <h2 class="title is-3">Overview</h2>
             <div class="content has-text-justified">
               <p>
-                We introduce the Massive Multi-discipline Multimodal Understanding and Reasoning (MMMU) benchmark, a novel benchmark meticulously curated to assess the expert-level multimodal understanding capability of foundation models across a broad scope of tasks. Covering subjects across disciplines, including Art, Business, Health & Medicine, Science, Humanities & Social Science, and Tech & Engineering, and over subfields. The detailed subject coverage and statistics are detailed in the figure. The questions in our benchmark were manually collected by a team of college students (including coauthors) from various disciplines and subjects, drawing from online sources, textbooks, and lecture materials.
+                The OmniBench aims to create the first comprehensive benchmark for evaluating multimodal large language models that support simultaneous image, audio, and text inputs. While OmniBench is designed to evaluate the understanding capability of MLLMs on cross-modality complementary information, the models are required to interpret the multimodal input and provide accurate text answer.
+                The problem could be formulated as following: given a tuple of (image, audio, text), the model is requito recognize the objects, re-build the contexts, and conduct reasoning based on the given information.
+                The design logic and statistics of the dataset and the annotation protocols are introduced in this section.
               </p>
               <!-- <img src="static/images/category_example.jpg" alt="category_example" class="center"> -->
-              <img src="static/images/annotation_scheme.jpg" alt="annotations" class="center" style="width: 150%; height: auto;">
+              <img src="static/images/table_1.jpg" alt="data_stats" class="center" style="width: 100%; height: auto;">
               <br>
               <p>
-        <!-- YIZHI --> 
-                 <!-- MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these models can not only perceive and understand information across different modalities but also apply reasoning with subject-specific knowledge to derive the solution. -->
+                We propose a novel task type categorization in OmniBench that assesses a broad spectrum of reasoning and cognitive abilities. Our taxonomy progresses from fundamental perception (Object Identification & Description) to complex inference (Contextual & Environmental, Identity & Relationship). It incorporates temporal and logical order understanding of events (Action & Activity, Story Description, Plot Inference), spatial awareness (Contextual & Environmental), entity recognition (Object Identification & Description), symbolic processing (Text & Symbols), and quantitative reasoning (Count & Quantity). This comprehensive design evaluates both low-level perceptual skills and high-level cognitive functions, enabling a holistic assessment of multimodal language models' (MLLMs) capabilities to recognize, describe, integrate information, understand context, and make nuanced inferences.
+                OmniBench comprises 1142 question-answer pairs, with task type distribution, text length, and image and audio characteristics. The dataset's audio content falls into three categories: speech (human vocal communication), sound events (non-speech natural, environmental and mechanical sounds), and music (various compositions and performances). 
               </p>
+              <br>
+              <img src="static/images/annotation_scheme.jpg" alt="annotation" class="center" style="width: 100%; height: auto;"> 
+              <br>
               <p>
-        <!-- YIZHI --> 
-                <!-- Our MMMU benchmark introduces key challenges to multimodal foundation models, as detailed in a figure. Among these, we particularly highlight the challenge stemming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subject-specific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model's adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, calling for an advanced approach that integrates advanced multimodal analysis with domain-specific knowledge. -->
+                Our annotation scheme is built upon a fundamental principle: the correct answer to each question must require information from both the image and audio components. This ensures that the benchmark effectively evaluates the model's ability to analyze information across modalities. Our quality control process was two-fold, including human inspection round and automatic inspection round assisted by MLLM. 
               </p>
             </div>
           </div>
@@ -465,19 +456,14 @@
               <div class="box m-5">
                 <div class="content has-text-centered">
                   <img src="static/images/inspection_distribution.jpg" alt="algebraic reasoning" width="95%"/>
-                  <p> Sampled MMMU examples from each discipline. The questions and images need expert-level knowledge to understand and reason.</p>
+                  <p> The Distribution of Inspection Frequency of the Passed Samples in OmniBench.</p>
                 </div>
               </div>
               <div class="box m-5">
                 <div class="content has-text-centered">
                   <img src="static/images/data_distribution.jpg" alt="arithmetic reasoning" width="120%"/>
-                  <p> Key statistics of the MMMU benchmark</p>
-                </div>
-              </div>
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="static/images/table.jpg" alt="arithmetic reasoning" width="100%"/>
-                  <p> Distribution of image types in the MMMU dataset</p>
+                  <p> The Data Distribution of OmniBench. Each chart represents the data samples grouped by
+                    task types and distinguished by audio types.</p>
                 </div>
               </div>
             </div>
@@ -501,12 +487,8 @@
             <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
             <div class="content has-text-justified">
               <p>
-        <!-- YIZHI --> 
-                <!-- We evaluate various models including LLMs and LMMs.
-                In each type, we consider both closed- and open-source models.
-                Our evaluation is conducted under a zero-shot setting to assess the capability of models to generate accurate answers without fine-tuning or few-shot demonstrations on our benchmark.
-                For all models, we use the default prompt provided by each model for multi-choice or open QA, if available.
-                If models do not provide prompts for task types in MMMU, we conduct prompt engineering on the validation set and use the most effective prompt for the later zero-shot experiment. -->
+                The main focus of OmniBench is to evaluate how well could the MLLMs understand and reconstruct the context given information from image, audio and text modalities.
+                Setting up questions with four available options for the models, we use accuracy, i.e., the ratio matched letter of the correct option and model response, as the evaluation metric (n.b., the accuracy of a random guess model is 25% under this setting).
               </p>
             </div>
             <br>
@@ -530,7 +512,15 @@
       <div class="container is-max-desktop content">
         <h2 class="title is-3 has-text-centered">BibTeX</h2>
         <pre><code>
-        <!-- YIZHI --> 
+    @misc{li2024omnibench,
+        title={OmniBench: Towards The Future of Universal Omni-Language Models}, 
+        author={Yizhi Li and Ge Zhang and Yinghao Ma and Ruibin Yuan and Kang Zhu and Hangyu Guo and Yiming Liang and Jiaheng Liu and Jian Yang and Siwei Wu and Xingwei Qu and Jinjie Shi and Xinyue Zhang and Zhenzhu Yang and Xiangzhou Wang and Zhaoxiang Zhang and Zachary Liu and Emmanouil Benetos and Wenhao Huang and Chenghua Lin},
+        year={2024},
+        eprint={2409.15272},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2409.15272}, 
+    }
     </code></pre>
       </div>
     </section>
