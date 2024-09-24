@@ -74,5 +74,13 @@ The local version data is placed at `dataset/batch-5_1142_20240817.jsonl`. You w
 ## Reference
 
 ```bib
-TBD
+@misc{li2024omnibench,
+    title={OmniBench: Towards The Future of Universal Omni-Language Models}, 
+    author={Yizhi Li and Ge Zhang and Yinghao Ma and Ruibin Yuan and Kang Zhu and Hangyu Guo and Yiming Liang and Jiaheng Liu and Jian Yang and Siwei Wu and Xingwei Qu and Jinjie Shi and Xinyue Zhang and Zhenzhu Yang and Xiangzhou Wang and Zhaoxiang Zhang and Zachary Liu and Emmanouil Benetos and Wenhao Huang and Chenghua Lin},
+    year={2024},
+    eprint={2409.15272},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2409.15272}, 
+}
 ```
