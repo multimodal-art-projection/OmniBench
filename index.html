@@ -487,20 +487,24 @@
             <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
             <div class="content has-text-justified">
               <p>
-                The main focus of OmniBench is to evaluate how well could the MLLMs understand and reconstruct the context given information from image, audio and text modalities.
+                The main focus of OmniBench is to evaluate how well could the omni-language models (OLMs) understand and reconstruct the context given information from image, audio and text modalities.
                 Setting up questions with four available options for the models, we use accuracy, i.e., the ratio matched letter of the correct option and model response, as the evaluation metric (n.b., the accuracy of a random guess model is 25% under this setting).
               </p>
             </div>
             <br>
             <div class="model-labels-container">
-              <span class="leaderboard-label human_expert">Human Expert</span>
-              <span class="leaderboard-label open_source">Open-Source</span>
-              <span class="leaderboard-label proprietary">Proprietary</span>
+              <!-- <span class="leaderboard-label human_expert">Human Expert</span> -->
+              <span class="leaderboard-label open_source_olm">Open-Source OLM</span>
+              <span class="leaderboard-label proprietary_olm">Proprietary OLM</span>
+              <br><br>
+              <span class="leaderboard-label open_source_vlmalm">Open-Source VLM or ALM</span>
+              <span class="leaderboard-label proprietary_vlmalm">Proprietary VLM or ALM</span>
             </div>
             <br>
             <div class="content has-text-centered">
               <p>
-                Click on the socre columns to expand detailed results.
+                The first row suggets the input context, where "Img. & Aud." refers to vanilla image and audio, and "(T)" refers to the textual alternative of image and audio.
+                Click on the 4 setting columns to expand detailed results.
               </p>
             </div>
             <div class="leaderboard-container">
@@ -560,7 +564,7 @@
                     <!-- Table body will be populated dynamically -->
                   </tbody>
                 </table>
-                <p class="test-desc"> Overall results of different models on the Omnibench leaderboard. "(T)" refers to the textual alternative of image and audio.</p>
+                <p class="test-desc"> Overall results of different models on the Omnibench leaderboard.</p>
               </div>
             </div>
             </div>

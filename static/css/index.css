@@ -26,12 +26,20 @@ body {
   background-color: rgba(255, 208, 80, 0.15);
 }
 
-.open_source {
-  background-color: rgba(249, 242, 248, 1);
+.open_source_olm {
+  background-color: rgb(212, 224, 155, 0.3);
 }
 
-.proprietary {
-  background-color: rgba(117, 209, 215, 0.1);
+.proprietary_olm {
+  background-color: rgba(255, 202, 212, 0.3);
+}
+
+.open_source_vlmalm {
+  background-color: rgb(115, 210, 222, 0.4);
+}
+
+.proprietary_vlmalm {
+  background-color: rgba(87, 117, 144, 0.4);
 }
 
 .random_frequent {

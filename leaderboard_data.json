@@ -2,10 +2,10 @@
   "leaderboardData": [
     {
       "info": {
-        "name": "video_salmonn",
-        "size": "-",
-        "date": "-",
-        "type": "model"
+        "name": "video-Salmonn",
+        "size": "13B",
+        "date": "2024-09-22",
+        "type": "open_source_olm"
       },
       "image-audio": {
         "speech": 34.11,
@@ -30,7 +30,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -44,7 +44,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -58,7 +58,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -67,9 +67,9 @@
     {
       "info": {
         "name": "AnyGPT",
-        "size": "-",
-        "date": "-",
-        "type": "model"
+        "size": "7B",
+        "date": "2024-09-22",
+        "type": "open_source_olm"
       },
       "image-audio": {
         "speech": 17.77,
@@ -94,7 +94,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -108,7 +108,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -122,7 +122,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "-",
+        "overall": "[TBD]",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -130,74 +130,10 @@
     },
     {
       "info": {
-        "name": "uio2-xl",
-        "size": "-",
-        "date": "-",
-        "type": "model"
-      },
-      "image-audio": {
-        "speech": 39.56,
-        "sound_event": 36.98,
-        "music": 29.25,
-        "overall": 38.0,
-        "action_and_activity": 32.27,
-        "story_description": 33.48,
-        "plot_inference": 31.65,
-        "object_identification_and_description": 63.03,
-        "contextual_and_environmental_questions": 34.04,
-        "identity_and_relationship": 34.38,
-        "text_and_symbols": 24.0,
-        "count_and_quantity": 20.0
-      },
-      "textual_image": {
-        "speech": 32.43,
-        "sound_event": 32.45,
-        "music": 30.19,
-        "overall": 32.22,
-        "action_and_activity": 33.47,
-        "story_description": 30.0,
-        "plot_inference": 31.65,
-        "object_identification_and_description": 38.86,
-        "contextual_and_environmental_questions": 31.91,
-        "identity_and_relationship": 21.88,
-        "text_and_symbols": 12.0,
-        "count_and_quantity": 20.0
-      },
-      "textual_audio": {
-        "speech": 44.49,
-        "sound_event": 38.11,
-        "music": 46.23,
-        "overall": 43.17,
-        "action_and_activity": 35.46,
-        "story_description": 40.43,
-        "plot_inference": 36.29,
-        "object_identification_and_description": 64.93,
-        "contextual_and_environmental_questions": 47.52,
-        "identity_and_relationship": 31.25,
-        "text_and_symbols": 36.0,
-        "count_and_quantity": 13.33
-      },
-      "textual_image-audio": {
-        "speech": 31.26,
-        "sound_event": 40.0,
-        "music": 36.79,
-        "overall": 33.8,
-        "action_and_activity": 37.45,
-        "story_description": 30.43,
-        "plot_inference": 30.38,
-        "object_identification_and_description": 39.81,
-        "contextual_and_environmental_questions": 39.01,
-        "identity_and_relationship": 18.75,
-        "text_and_symbols": 12.0,
-        "count_and_quantity": 13.33
-      }
-    },
-    {
-      "info": {
-        "name": "uio2-large",
-        "size": "-",
-        "date": "-",
-        "type": "model"
+        "name": "UnifiedIO2-large",
+        "size": "1.1B",
+        "date": "2024-09-22",
+        "type": "open_source_olm"
       },
       "image-audio": {
         "speech": 25.94,
@@ -258,10 +194,74 @@
     },
     {
       "info": {
-        "name": "uio2-xxl",
-        "size": "-",
-        "date": "-",
-        "type": "model"
+        "name": "UnifiedIO2-xlarge",
+        "size": "3.2B",
+        "date": "2024-09-22",
+        "type": "open_source_olm"
+      },
+      "image-audio": {
+        "speech": 39.56,
+        "sound_event": 36.98,
+        "music": 29.25,
+        "overall": 38.0,
+        "action_and_activity": 32.27,
+        "story_description": 33.48,
+        "plot_inference": 31.65,
+        "object_identification_and_description": 63.03,
+        "contextual_and_environmental_questions": 34.04,
+        "identity_and_relationship": 34.38,
+        "text_and_symbols": 24.0,
+        "count_and_quantity": 20.0
+      },
+      "textual_image": {
+        "speech": 32.43,
+        "sound_event": 32.45,
+        "music": 30.19,
+        "overall": 32.22,
+        "action_and_activity": 33.47,
+        "story_description": 30.0,
+        "plot_inference": 31.65,
+        "object_identification_and_description": 38.86,
+        "contextual_and_environmental_questions": 31.91,
+        "identity_and_relationship": 21.88,
+        "text_and_symbols": 12.0,
+        "count_and_quantity": 20.0
+      },
+      "textual_audio": {
+        "speech": 44.49,
+        "sound_event": 38.11,
+        "music": 46.23,
+        "overall": 43.17,
+        "action_and_activity": 35.46,
+        "story_description": 40.43,
+        "plot_inference": 36.29,
+        "object_identification_and_description": 64.93,
+        "contextual_and_environmental_questions": 47.52,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 13.33
+      },
+      "textual_image-audio": {
+        "speech": 31.26,
+        "sound_event": 40.0,
+        "music": 36.79,
+        "overall": 33.8,
+        "action_and_activity": 37.45,
+        "story_description": 30.43,
+        "plot_inference": 30.38,
+        "object_identification_and_description": 39.81,
+        "contextual_and_environmental_questions": 39.01,
+        "identity_and_relationship": 18.75,
+        "text_and_symbols": 12.0,
+        "count_and_quantity": 13.33
+      }
+    },
+    {
+      "info": {
+        "name": "UnifiedIO2-xxlarge",
+        "size": "6.8B",
+        "date": "2024-09-22",
+        "type": "open_source_olm"
       },
       "image-audio": {
         "speech": 34.24,
@@ -319,6 +319,1414 @@
         "text_and_symbols": 16.0,
         "count_and_quantity": 26.67
       }
+    },
+    {
+      "info": {
+        "name": "Gemini-1.5-Pro",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_olm"
+      },
+      "image-audio": {
+        "speech": 42.67,
+        "sound_event": 42.26,
+        "music": 46.23,
+        "overall": 47.56,
+        "action_and_activity": 41.83,
+        "story_description": 30.87,
+        "plot_inference": 32.91,
+        "object_identification_and_description": 62.56,
+        "contextual_and_environmental_questions": 60.28,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 28.0,
+        "count_and_quantity": 13.33
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "43.93",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 43.58,
+        "sound_event": 46.04,
+        "music": 46.23,
+        "overall": 49.91,
+        "action_and_activity": 44.22,
+        "story_description": 37.39,
+        "plot_inference": 31.65,
+        "object_identification_and_description": 61.61,
+        "contextual_and_environmental_questions": 57.45,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 33.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "45.27",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT-4V-Preview",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 39.31,
+        "sound_event": 38.91,
+        "music": 47.17,
+        "overall": 48.19,
+        "action_and_activity": 43.27,
+        "story_description": 33.64,
+        "plot_inference": 23.36,
+        "object_identification_and_description": 58.79,
+        "contextual_and_environmental_questions": 53.96,
+        "identity_and_relationship": 20.0,
+        "text_and_symbols": 12.5,
+        "count_and_quantity": 20.0
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT-4V-0409",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 33.68,
+        "sound_event": 28.9,
+        "music": 41.51,
+        "overall": 42.49,
+        "action_and_activity": 40.4,
+        "story_description": 32.46,
+        "plot_inference": 23.31,
+        "object_identification_and_description": 36.23,
+        "contextual_and_environmental_questions": 45.32,
+        "identity_and_relationship": 12.5,
+        "text_and_symbols": 12.0,
+        "count_and_quantity": 13.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT4-o-mini",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 46.26,
+        "sound_event": 46.59,
+        "music": 73.58,
+        "overall": 48.9,
+        "action_and_activity": 42.4,
+        "story_description": 38.43,
+        "plot_inference": 37.71,
+        "object_identification_and_description": 79.23,
+        "contextual_and_environmental_questions": 61.15,
+        "identity_and_relationship": 34.38,
+        "text_and_symbols": 28.0,
+        "count_and_quantity": 26.67
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT4-o (0806)",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 50.0,
+        "sound_event": 45.28,
+        "music": 74.53,
+        "overall": 51.18,
+        "action_and_activity": 46.61,
+        "story_description": 44.78,
+        "plot_inference": 43.46,
+        "object_identification_and_description": 66.82,
+        "contextual_and_environmental_questions": 67.86,
+        "identity_and_relationship": 28.12,
+        "text_and_symbols": 40.0,
+        "count_and_quantity": 40.0
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Claude-3.5-Sonnet",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 57.07,
+        "sound_event": 63.77,
+        "music": 65.09,
+        "overall": 59.37,
+        "action_and_activity": 64.14,
+        "story_description": 45.65,
+        "plot_inference": 55.7,
+        "object_identification_and_description": 70.14,
+        "contextual_and_environmental_questions": 72.34,
+        "identity_and_relationship": 40.62,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 53.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Reka-core-20240501",
+        "size": "-",
+        "date": "2024-09-22",
+        "type": "proprietary_olm"
+      },
+      "image-audio": {
+        "speech": 31.89,
+        "sound_event": 26.04,
+        "music": 33.02,
+        "overall": 38.06,
+        "action_and_activity": 25.5,
+        "story_description": 24.78,
+        "plot_inference": 20.68,
+        "object_identification_and_description": 49.76,
+        "contextual_and_environmental_questions": 39.01,
+        "identity_and_relationship": 28.12,
+        "text_and_symbols": 41.18,
+        "count_and_quantity": 7.14
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "34.57",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "48.73",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "42.23",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "InternVL-2",
+        "size": "2B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 38.0,
+        "sound_event": 49.43,
+        "music": 55.66,
+        "overall": 42.29,
+        "action_and_activity": 52.19,
+        "story_description": 42.61,
+        "plot_inference": 41.77,
+        "object_identification_and_description": 35.07,
+        "contextual_and_environmental_questions": 43.97,
+        "identity_and_relationship": 21.88,
+        "text_and_symbols": 28.0,
+        "count_and_quantity": 33.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "InternVL-2",
+        "size": "8B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "speech": 44.62,
+        "sound_event": 49.43,
+        "music": 64.15,
+        "overall": 47.55,
+        "action_and_activity": 56.18,
+        "story_description": 47.39,
+        "plot_inference": 50.21,
+        "object_identification_and_description": 38.86,
+        "contextual_and_environmental_questions": 48.23,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 40.0,
+        "count_and_quantity": 40.0
+      },
+      "textual_audio": {
+        "speech": 46.17,
+        "sound_event": 56.98,
+        "music": 68.87,
+        "overall": 50.79,
+        "action_and_activity": 61.35,
+        "story_description": 50.0,
+        "plot_inference": 54.85,
+        "object_identification_and_description": 39.34,
+        "contextual_and_environmental_questions": 55.32,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 20.0
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "InternVL-2",
+        "size": "26B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 47.08,
+        "sound_event": 58.87,
+        "music": 67.92,
+        "overall": 51.75,
+        "action_and_activity": 64.54,
+        "story_description": 48.26,
+        "plot_inference": 52.32,
+        "object_identification_and_description": 40.76,
+        "contextual_and_environmental_questions": 60.28,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 40.0,
+        "count_and_quantity": 33.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "InternVL-2",
+        "size": "40B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "speech": 43.06,
+        "sound_event": 50.19,
+        "music": 69.81,
+        "overall": 47.2,
+        "action_and_activity": 52.59,
+        "story_description": 44.35,
+        "plot_inference": 51.48,
+        "object_identification_and_description": 37.91,
+        "contextual_and_environmental_questions": 53.9,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 44.0,
+        "count_and_quantity": 53.33
+      },
+      "textual_audio": {
+        "speech": 50.32,
+        "sound_event": 59.62,
+        "music": 69.81,
+        "overall": 54.29,
+        "action_and_activity": 64.54,
+        "story_description": 49.13,
+        "plot_inference": 61.6,
+        "object_identification_and_description": 36.97,
+        "contextual_and_environmental_questions": 65.96,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 40.0,
+        "count_and_quantity": 53.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Idefics2",
+        "size": "8B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 39.95,
+        "sound_event": 53.21,
+        "music": 62.26,
+        "overall": 45.1,
+        "action_and_activity": 54.98,
+        "story_description": 43.04,
+        "plot_inference": 47.68,
+        "object_identification_and_description": 31.28,
+        "contextual_and_environmental_questions": 55.32,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 24.0,
+        "count_and_quantity": 46.67
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+          "name": "Mantis-Idefics2",
+          "size": "8B",
+          "date": "2024-09-22",
+          "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_image": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_audio": {
+          "speech": 42.41,
+          "sound_event": 52.83,
+          "music": 56.6,
+          "overall": 46.15,
+          "action_and_activity": 49.8,
+          "story_description": 37.39,
+          "plot_inference": 44.73,
+          "object_identification_and_description": 50.71,
+          "contextual_and_environmental_questions": 58.16,
+          "identity_and_relationship": 25.0,
+          "text_and_symbols": 28.0,
+          "count_and_quantity": 40.0
+      },
+      "textual_image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      }
+  },
+    {
+      "info": {
+        "name": "XComposer2-4KHD",
+        "size": "7B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 38.65,
+        "sound_event": 50.19,
+        "music": 66.98,
+        "overall": 43.96,
+        "action_and_activity": 54.18,
+        "story_description": 40.0,
+        "plot_inference": 42.62,
+        "object_identification_and_description": 36.49,
+        "contextual_and_environmental_questions": 52.48,
+        "identity_and_relationship": 18.75,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 46.67
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Deepseek-VL-Chat",
+        "size": "7B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 36.58,
+        "sound_event": 41.51,
+        "music": 57.55,
+        "overall": 39.67,
+        "action_and_activity": 39.04,
+        "story_description": 36.52,
+        "plot_inference": 41.35,
+        "object_identification_and_description": 36.02,
+        "contextual_and_environmental_questions": 53.9,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 32.0,
+        "count_and_quantity": 20.0
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Cambrian",
+        "size": "8B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 38.91,
+        "sound_event": 43.77,
+        "music": 61.32,
+        "overall": 42.12,
+        "action_and_activity": 48.61,
+        "story_description": 45.22,
+        "plot_inference": 38.82,
+        "object_identification_and_description": 37.44,
+        "contextual_and_environmental_questions": 51.77,
+        "identity_and_relationship": 12.5,
+        "text_and_symbols": 20.0,
+        "count_and_quantity": 13.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Cambrian",
+        "size": "13B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "speech": 39.3,
+        "sound_event": 46.04,
+        "music": 63.21,
+        "overall": 43.08,
+        "action_and_activity": 48.61,
+        "story_description": 44.35,
+        "plot_inference": 44.3,
+        "object_identification_and_description": 35.07,
+        "contextual_and_environmental_questions": 51.77,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 16.0,
+        "count_and_quantity": 26.67
+      },
+      "textual_audio": {
+        "speech": 41.5,
+        "sound_event": 48.68,
+        "music": 61.32,
+        "overall": 45.01,
+        "action_and_activity": 52.99,
+        "story_description": 46.52,
+        "plot_inference": 45.99,
+        "object_identification_and_description": 36.02,
+        "contextual_and_environmental_questions": 50.35,
+        "identity_and_relationship": 18.75,
+        "text_and_symbols": 32.0,
+        "count_and_quantity": 26.67
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Cambrian",
+        "size": "34B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 42.93,
+        "sound_event": 47.92,
+        "music": 71.7,
+        "overall": 46.76,
+        "action_and_activity": 54.58,
+        "story_description": 43.04,
+        "plot_inference": 47.26,
+        "object_identification_and_description": 38.86,
+        "contextual_and_environmental_questions": 59.57,
+        "identity_and_relationship": 21.88,
+        "text_and_symbols": 40.0,
+        "count_and_quantity": 20.0
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+          "name": "Qwen2-VL-Chat",
+          "size": "2B",
+          "date": "2024-09-22",
+          "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_image": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_audio": {
+          "speech": 40.21,
+          "sound_event": 38.49,
+          "music": 68.87,
+          "overall": 42.47,
+          "action_and_activity": 43.03,
+          "story_description": 43.04,
+          "plot_inference": 44.73,
+          "object_identification_and_description": 37.44,
+          "contextual_and_environmental_questions": 46.1,
+          "identity_and_relationship": 31.25,
+          "text_and_symbols": 36.0,
+          "count_and_quantity": 60.0
+      },
+      "textual_image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      }
+  },
+    {
+      "info": {
+          "name": "Qwen2-VL-Chat",
+          "size": "7B",
+          "date": "2024-09-22",
+          "type": "open_source_vlmalm"
+      },
+      "image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_image": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      },
+      "textual_audio": {
+          "speech": 42.93,
+          "sound_event": 56.6,
+          "music": 69.81,
+          "overall": 48.6,
+          "action_and_activity": 60.96,
+          "story_description": 43.48,
+          "plot_inference": 51.48,
+          "object_identification_and_description": 36.97,
+          "contextual_and_environmental_questions": 56.03,
+          "identity_and_relationship": 34.38,
+          "text_and_symbols": 24.0,
+          "count_and_quantity": 40.0
+      },
+      "textual_image-audio": {
+          "action_and_activity": "-",
+          "story_description": "-",
+          "plot_inference": "-",
+          "object_identification_and_description": "-",
+          "contextual_and_environmental_questions": "-",
+          "identity_and_relationship": "-",
+          "text_and_symbols": "-",
+          "count_and_quantity": "-",
+          "overall": "-",
+          "music": "-",
+          "speech": "-",
+          "sound_event": "-"
+      }
+  },
+  {
+    "info": {
+        "name": "LLaVA-OneVision",
+        "size": "0.5B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm"
+    },
+    "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+    },
+    "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+    },
+    "textual_audio": {
+        "speech": 35.15,
+        "sound_event": 39.62,
+        "music": 54.72,
+        "overall": 38.0,
+        "action_and_activity": 34.66,
+        "story_description": 42.17,
+        "plot_inference": 41.35,
+        "object_identification_and_description": 36.49,
+        "contextual_and_environmental_questions": 42.55,
+        "identity_and_relationship": 21.88,
+        "text_and_symbols": 24.0,
+        "count_and_quantity": 13.33
+    },
+    "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
     }
+},
+{
+  "info": {
+      "name": "LLaVA-OneVision",
+      "size": "7B",
+      "date": "2024-09-22",
+      "type": "open_source_vlmalm"
+  },
+  "image-audio": {
+      "action_and_activity": "-",
+      "story_description": "-",
+      "plot_inference": "-",
+      "object_identification_and_description": "-",
+      "contextual_and_environmental_questions": "-",
+      "identity_and_relationship": "-",
+      "text_and_symbols": "-",
+      "count_and_quantity": "-",
+      "overall": "-",
+      "music": "-",
+      "speech": "-",
+      "sound_event": "-"
+  },
+  "textual_image": {
+      "action_and_activity": "-",
+      "story_description": "-",
+      "plot_inference": "-",
+      "object_identification_and_description": "-",
+      "contextual_and_environmental_questions": "-",
+      "identity_and_relationship": "-",
+      "text_and_symbols": "-",
+      "count_and_quantity": "-",
+      "overall": "-",
+      "music": "-",
+      "speech": "-",
+      "sound_event": "-"
+  },
+  "textual_audio": {
+      "speech": 44.36,
+      "sound_event": 49.43,
+      "music": 60.38,
+      "overall": 47.02,
+      "action_and_activity": 56.57,
+      "story_description": 43.91,
+      "plot_inference": 50.63,
+      "object_identification_and_description": 33.18,
+      "contextual_and_environmental_questions": 60.28,
+      "identity_and_relationship": 21.88,
+      "text_and_symbols": 28.0,
+      "count_and_quantity": 33.33
+  },
+  "textual_image-audio": {
+      "action_and_activity": "-",
+      "story_description": "-",
+      "plot_inference": "-",
+      "object_identification_and_description": "-",
+      "contextual_and_environmental_questions": "-",
+      "identity_and_relationship": "-",
+      "text_and_symbols": "-",
+      "count_and_quantity": "-",
+      "overall": "-",
+      "music": "-",
+      "speech": "-",
+      "sound_event": "-"
+  }
+}
   ]
 }

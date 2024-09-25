@@ -277,8 +277,6 @@ function getCellValue(row, index) {
 }
 
 function initializeSorting() {
-  // var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
-  // sortTable(valOverallHeader, true);
   var IAOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.IA-overall');
   sortTable(IAOverallHeader, true);
 }
