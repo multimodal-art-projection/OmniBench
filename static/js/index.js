@@ -36,11 +36,11 @@ function loadTableData() {
           // const proScores = prepareScoresForStyling(data.leaderboardData, 'pro');
           // const valScores = prepareScoresForStyling(data.leaderboardData, 'validation');
           // const testScores = prepareScoresForStyling(data.leaderboardData, 'test');
-          const image_audio_Scores = prepareScoresForStyling(data.leaderboardData, "image_audio");
+          const image_audio_Scores = prepareScoresForStyling(data.leaderboardData, "image-audio");
           const textual_image_Scores = prepareScoresForStyling(data.leaderboardData, "textual_image");
           const textual_audio_Scores = prepareScoresForStyling(data.leaderboardData, "textual_audio");
           const textual_image_audio_Scores = prepareScoresForStyling(data.leaderboardData, "textual_image-audio");
-
+          // console.log('Debug Scores:', image_audio_Scores, textual_image_Scores, textual_audio_Scores, textual_image_audio_Scores);
           data.leaderboardData.forEach((row, index) => {
             const tr = document.createElement('tr');
             tr.classList.add(row.info.type);
@@ -61,10 +61,10 @@ function loadTableData() {
             // const proOverall = formatOverallValue(applyStyle(safeGet(row, 'pro.overall'), image_audio_Scores.overall[index]), safeGet(row, 'pro.source'));
             // const valOverall = formatOverallValue(applyStyle(safeGet(row, 'validation.overall'), valScores.overall[index]), safeGet(row, 'validation.source'));
             // const testOverall = formatOverallValue(applyStyle(safeGet(row, 'test.overall'), testScores.overall[index]), safeGet(row, 'test.source'));
-            const IAOverall = formatOverallValue(applyStyle(safeGet(row, 'IA.overall'), image_audio_Scores.overall[index]), safeGet(row, 'IA.source'));
-            const TIOverall = formatOverallValue(applyStyle(safeGet(row, 'TI.overall'), textual_image_Scores.overall[index]), safeGet(row, 'TI.source'));
-            const TAOverall = formatOverallValue(applyStyle(safeGet(row, 'TA.overall'), textual_audio_Scores.overall[index]), safeGet(row, 'TA.source'));
-            const TIAOverall = formatOverallValue(applyStyle(safeGet(row, 'TIA.overall'), textual_image_audio_Scores.overall[index]), safeGet(row, 'TIA.source'));
+            const IAOverall = formatOverallValue(applyStyle(safeGet(row, 'image-audio.overall'), image_audio_Scores.overall[index]), safeGet(row, 'IA.source'));
+            const TIOverall = formatOverallValue(applyStyle(safeGet(row, 'textual_image.overall'), textual_image_Scores.overall[index]), safeGet(row, 'TI.source'));
+            const TAOverall = formatOverallValue(applyStyle(safeGet(row, 'textual_audio.overall'), textual_audio_Scores.overall[index]), safeGet(row, 'TA.source'));
+            const TIAOverall = formatOverallValue(applyStyle(safeGet(row, 'textual_image-audio.overall'), textual_image_audio_Scores.overall[index]), safeGet(row, 'TIA.source'));
 
             tr.innerHTML = `
               <td>${nameCell}</td>
