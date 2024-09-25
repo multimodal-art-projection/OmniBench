@@ -33,9 +33,13 @@ function loadTableData() {
           const tbody = document.querySelector('#mmmu-table tbody');
 
           // Prepare data for styling
-          const proScores = prepareScoresForStyling(data.leaderboardData, 'pro');
-          const valScores = prepareScoresForStyling(data.leaderboardData, 'validation');
-          const testScores = prepareScoresForStyling(data.leaderboardData, 'test');
+          // const proScores = prepareScoresForStyling(data.leaderboardData, 'pro');
+          // const valScores = prepareScoresForStyling(data.leaderboardData, 'validation');
+          // const testScores = prepareScoresForStyling(data.leaderboardData, 'test');
+          const image_audio_Scores = prepareScoresForStyling(data.leaderboardData, "image_audio");
+          const textual_image_Scores = prepareScoresForStyling(data.leaderboardData, "textual_image");
+          const textual_audio_Scores = prepareScoresForStyling(data.leaderboardData, "textual_audio");
+          const textual_image_audio_Scores = prepareScoresForStyling(data.leaderboardData, "textual_image-audio");
 
           data.leaderboardData.forEach((row, index) => {
             const tr = document.createElement('tr');
@@ -54,31 +58,54 @@ function loadTableData() {
               return adjustedValue;
             };
 
-            const proOverall = formatOverallValue(applyStyle(safeGet(row, 'pro.overall'), proScores.overall[index]), safeGet(row, 'pro.source'));
-            const valOverall = formatOverallValue(applyStyle(safeGet(row, 'validation.overall'), valScores.overall[index]), safeGet(row, 'validation.source'));
-            const testOverall = formatOverallValue(applyStyle(safeGet(row, 'test.overall'), testScores.overall[index]), safeGet(row, 'test.source'));
+            // const proOverall = formatOverallValue(applyStyle(safeGet(row, 'pro.overall'), image_audio_Scores.overall[index]), safeGet(row, 'pro.source'));
+            // const valOverall = formatOverallValue(applyStyle(safeGet(row, 'validation.overall'), valScores.overall[index]), safeGet(row, 'validation.source'));
+            // const testOverall = formatOverallValue(applyStyle(safeGet(row, 'test.overall'), testScores.overall[index]), safeGet(row, 'test.source'));
+            const IAOverall = formatOverallValue(applyStyle(safeGet(row, 'IA.overall'), image_audio_Scores.overall[index]), safeGet(row, 'IA.source'));
+            const TIOverall = formatOverallValue(applyStyle(safeGet(row, 'TI.overall'), textual_image_Scores.overall[index]), safeGet(row, 'TI.source'));
+            const TAOverall = formatOverallValue(applyStyle(safeGet(row, 'TA.overall'), textual_audio_Scores.overall[index]), safeGet(row, 'TA.source'));
+            const TIAOverall = formatOverallValue(applyStyle(safeGet(row, 'TIA.overall'), textual_image_audio_Scores.overall[index]), safeGet(row, 'TIA.source'));
 
             tr.innerHTML = `
               <td>${nameCell}</td>
               <td>${row.info.size}</td>
               <td>${row.info.date}</td>
-              <td class="pro-overall">${proOverall}</td>
-              <td class="hidden pro-details">${applyStyle(safeGet(row, 'pro.vision'), proScores.vision[index])}</td>
-              <td class="hidden pro-details">${applyStyle(safeGet(row, 'pro.original'), proScores.original[index])}</td>
-              <td class="val-overall">${valOverall}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.artDesign'), valScores.artDesign[index])}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.business'), valScores.business[index])}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.science'), valScores.science[index])}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.healthMedicine'), valScores.healthMedicine[index])}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.humanSocialSci'), valScores.humanSocialSci[index])}</td>
-              <td class="hidden val-details">${applyStyle(safeGet(row, 'validation.techEng'), valScores.techEng[index])}</td>
-              <td class="test-overall">${testOverall}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.artDesign'), testScores.artDesign[index])}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.business'), testScores.business[index])}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.science'), testScores.science[index])}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.healthMedicine'), testScores.healthMedicine[index])}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.humanSocialSci'), testScores.humanSocialSci[index])}</td>
-              <td class="hidden test-details">${applyStyle(safeGet(row, 'test.techEng'), testScores.techEng[index])}</td>
+              <td class="IA-overall">${IAOverall}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.action_and_activity'), image_audio_Scores.action_and_activity[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.story_description'), image_audio_Scores.story_description[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.plot_inference'), image_audio_Scores.plot_inference[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.object_identification_and_description'), image_audio_Scores.object_identification_and_description[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.contextual_and_environmental_questions'), image_audio_Scores.contextual_and_environmental_questions[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.identity_and_relationship'), image_audio_Scores.identity_and_relationship[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.text_and_symbols'), image_audio_Scores.text_and_symbols[index])}</td>
+              <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.count_and_quantity'), image_audio_Scores.count_and_quantity[index])}</td>
+              <td class="TI-overall">${TIOverall}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.action_and_activity'), textual_image_Scores.action_and_activity[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.story_description'), textual_image_Scores.story_description[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.plot_inference'), textual_image_Scores.plot_inference[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.object_identification_and_description'), textual_image_Scores.object_identification_and_description[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.contextual_and_environmental_questions'), textual_image_Scores.contextual_and_environmental_questions[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.identity_and_relationship'), textual_image_Scores.identity_and_relationship[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.text_and_symbols'), textual_image_Scores.text_and_symbols[index])}</td>
+              <td class="hidden TI-details">${applyStyle(safeGet(row, 'TI.count_and_quantity'), textual_image_Scores.count_and_quantity[index])}</td>
+              <td class="TA-overall">${TAOverall}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.action_and_activity'), textual_audio_Scores.action_and_activity[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.story_description'), textual_audio_Scores.story_description[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.plot_inference'), textual_audio_Scores.plot_inference[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.object_identification_and_description'), textual_audio_Scores.object_identification_and_description[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.contextual_and_environmental_questions'), textual_audio_Scores.contextual_and_environmental_questions[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.identity_and_relationship'), textual_audio_Scores.identity_and_relationship[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.text_and_symbols'), textual_audio_Scores.text_and_symbols[index])}</td>
+              <td class="hidden TA-details">${applyStyle(safeGet(row, 'TA.count_and_quantity'), textual_audio_Scores.count_and_quantity[index])}</td>
+              <td class="TIA-overall">${TIAOverall}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.action_and_activity'), textual_image_audio_Scores.action_and_activity[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.story_description'), textual_image_audio_Scores.story_description[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.plot_inference'), textual_image_audio_Scores.plot_inference[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.object_identification_and_description'), textual_image_audio_Scores.object_identification_and_description[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.contextual_and_environmental_questions'), textual_image_audio_Scores.contextual_and_environmental_questions[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.identity_and_relationship'), textual_image_audio_Scores.identity_and_relationship[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.text_and_symbols'), textual_image_audio_Scores.text_and_symbols[index])}</td>
+              <td class="hidden TIA-details">${applyStyle(safeGet(row, 'TIA.count_and_quantity'), textual_image_audio_Scores.count_and_quantity[index])}</td>
             `;
             tbody.appendChild(tr);
           });
@@ -100,15 +127,28 @@ function setupEventListeners() {
     resetTable();
   });
 
-  document.querySelector('.pro-details-cell').addEventListener('click', function() {
-    toggleDetails('pro');
+  // document.querySelector('.pro-details-cell').addEventListener('click', function() {
+  //   toggleDetails('pro');
+  // });
+  // document.querySelector('.val-details-cell').addEventListener('click', function() {
+  //   toggleDetails('val');
+  // });
+  // document.querySelector('.test-details-cell').addEventListener('click', function() {
+  //   toggleDetails('test');
+  // });
+  document.querySelector('.IA-details-cell').addEventListener('click', function() {
+    toggleDetails('IA');
   });
-  document.querySelector('.val-details-cell').addEventListener('click', function() {
-    toggleDetails('val');
+  document.querySelector('.TI-details-cell').addEventListener('click', function() {
+    toggleDetails('TI');
   });
-  document.querySelector('.test-details-cell').addEventListener('click', function() {
-    toggleDetails('test');
+  document.querySelector('.TA-details-cell').addEventListener('click', function() {
+    toggleDetails('TA');
   });
+  document.querySelector('.TIA-details-cell').addEventListener('click', function() {
+    toggleDetails('TIA');
+  });
+
 
   var headers = document.querySelectorAll('#mmmu-table thead tr:last-child th.sortable');
   headers.forEach(function(header) {
@@ -119,7 +159,8 @@ function setupEventListeners() {
 }
 
 function toggleDetails(section) {
-  var sections = ['pro', 'val', 'test'];
+  // var sections = ['pro', 'val', 'test'];
+  var sections = ['IA', 'TI', 'TA', 'TIA'];
   sections.forEach(function(sec) {
     var detailCells = document.querySelectorAll('.' + sec + '-details');
     var overallCells = document.querySelectorAll('.' + sec + '-overall');
@@ -138,17 +179,28 @@ function toggleDetails(section) {
 }
 
 function resetTable() {
-  document.querySelectorAll('.pro-details, .val-details, .test-details').forEach(function(cell) {
+  // document.querySelectorAll('.pro-details, .val-details, .test-details').forEach(function(cell) {
+  //   cell.classList.add('hidden');
+  // });
+  document.querySelectorAll('.IA-details, .TI-details, .TA-details, .TIA-details').forEach(function(cell) {
     cell.classList.add('hidden');
   });
+  
 
-  document.querySelectorAll('.pro-overall, .val-overall, .test-overall').forEach(function(cell) {
+  // document.querySelectorAll('.pro-overall, .val-overall, .test-overall').forEach(function(cell) {
+  //   cell.classList.remove('hidden');
+  // });
+  document.querySelectorAll('.IA-overall, .TI-overall, .TA-overall, .TIA-overall').forEach(function(cell) {
     cell.classList.remove('hidden');
   });
 
-  document.querySelector('.pro-details-cell').setAttribute('colspan', '1');
-  document.querySelector('.val-details-cell').setAttribute('colspan', '1');
-  document.querySelector('.test-details-cell').setAttribute('colspan', '1');
+  // document.querySelector('.pro-details-cell').setAttribute('colspan', '1');
+  // document.querySelector('.val-details-cell').setAttribute('colspan', '1');
+  // document.querySelector('.test-details-cell').setAttribute('colspan', '1');
+  document.querySelector('.IA-details-cell').setAttribute('colspan', '1');
+  document.querySelector('.TI-details-cell').setAttribute('colspan', '1');
+  document.querySelector('.TA-details-cell').setAttribute('colspan', '1');
+  document.querySelector('.TIA-details-cell').setAttribute('colspan', '1');
 
   var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
   sortTable(valOverallHeader, true);
@@ -202,12 +254,21 @@ function getCellValue(row, index) {
   var cell = cells[index];
 
   if (cell.classList.contains('hidden')) {
-    if (cell.classList.contains('pro-details') || cell.classList.contains('pro-overall')) {
-      cell = cells.find(c => (c.classList.contains('pro-overall') || c.classList.contains('pro-details')) && !c.classList.contains('hidden'));
-    } else if (cell.classList.contains('val-details') || cell.classList.contains('val-overall')) {
-      cell = cells.find(c => (c.classList.contains('val-overall') || c.classList.contains('val-details')) && !c.classList.contains('hidden'));
-    } else if (cell.classList.contains('test-details') || cell.classList.contains('test-overall')) {
-      cell = cells.find(c => (c.classList.contains('test-overall') || c.classList.contains('test-details')) && !c.classList.contains('hidden'));
+    // if (cell.classList.contains('pro-details') || cell.classList.contains('pro-overall')) {
+    //   cell = cells.find(c => (c.classList.contains('pro-overall') || c.classList.contains('pro-details')) && !c.classList.contains('hidden'));
+    // } else if (cell.classList.contains('val-details') || cell.classList.contains('val-overall')) {
+    //   cell = cells.find(c => (c.classList.contains('val-overall') || c.classList.contains('val-details')) && !c.classList.contains('hidden'));
+    // } else if (cell.classList.contains('test-details') || cell.classList.contains('test-overall')) {
+    //   cell = cells.find(c => (c.classList.contains('test-overall') || c.classList.contains('test-details')) && !c.classList.contains('hidden'));
+    // }
+    if (cell.classList.contains('IA-details') || cell.classList.contains('IA-overall')) {
+      cell = cells.find(c => (c.classList.contains('IA-overall') || c.classList.contains('IA-details')) && !c.classList.contains('hidden'));
+    } else if (cell.classList.contains('TI-details') || cell.classList.contains('TI-overall')) {
+      cell = cells.find(c => (c.classList.contains('TI-overall') || c.classList.contains('TI-details')) && !c.classList.contains('hidden'));
+    } else if (cell.classList.contains('TA-details') || cell.classList.contains('TA-overall')) {
+      cell = cells.find(c => (c.classList.contains('TA-overall') || c.classList.contains('TA-details')) && !c.classList.contains('hidden'));
+    } else if (cell.classList.contains('TIA-details') || cell.classList.contains('TIA-overall')) {
+      cell = cells.find(c => (c.classList.contains('TIA-overall') || c.classList.contains('TIA-details')) && !c.classList.contains('hidden'));
     }
   }
   return cell ? cell.textContent.trim() : '';
@@ -250,8 +311,9 @@ function adjustNameColumnWidth() {
 function prepareScoresForStyling(data, section) {
   const scores = {};
   const fields = [
-    'overall', 'vision', 'original', 'artDesign', 'business',
-    'science', 'healthMedicine', 'humanSocialSci', 'techEng'
+    'overall', "action_and_activity", "story_description", "plot_inference",
+    "object_identification_and_description", "contextual_and_environmental_questions",
+    "identity_and_relationship", "text_and_symbols", "count_and_quantity"
   ];
 
   fields.forEach(field => {

@@ -413,7 +413,7 @@
                 The design logic and statistics of the dataset and the annotation protocols are introduced in this section.
               </p>
               <!-- <img src="static/images/category_example.jpg" alt="category_example" class="center"> -->
-              <img src="static/images/table_1.jpg" alt="data_stats" class="center" style="width: 100%; height: auto;">
+              <img src="static/images/table.jpg" alt="data_stats" class="center" style="width: 100%; height: auto;">
               <br>
               <p>
                 We propose a novel task type categorization in OmniBench that assesses a broad spectrum of reasoning and cognitive abilities. Our taxonomy progresses from fundamental perception (Object Identification & Description) to complex inference (Contextual & Environmental, Identity & Relationship). It incorporates temporal and logical order understanding of events (Action & Activity, Story Description, Plot Inference), spatial awareness (Contextual & Environmental), entity recognition (Object Identification & Description), symbolic processing (Text & Symbols), and quantitative reasoning (Count & Quantity). This comprehensive design evaluates both low-level perceptual skills and high-level cognitive functions, enabling a holistic assessment of multimodal language models' (MLLMs) capabilities to recognize, describe, integrate information, understand context, and make nuanced inferences.
@@ -500,9 +500,69 @@
             <br>
             <div class="content has-text-centered">
               <p>
-        <!-- YIZHI --> 
-                <!-- Click on MMMU-Pro, MMMU (Val) or MMMU (Test) to expand detailed results. -->
+                Click on the socre columns to expand detailed results.
               </p>
+            </div>
+            <div class="leaderboard-container">
+              <div class="table-wrapper">
+                <table id="mmmu-table">
+                  <thead>
+                    <tr>
+                      <th colspan="3" class="reset-cell clickable" style="text-align: center;">Reset</th>
+                      <th class="IA-details-cell clickable" colspan="1">Img. & Aud.</th>
+                      <th class="TI-details-cell clickable" colspan="1">Img.(T) & Aud.</th>
+                      <th class="TA-details-cell clickable" colspan="1">Img. & Aud. (T)</th>
+                      <th class="TIA-details-cell clickable" colspan="1">Img. (T) & Aud. (T)</th>
+                    </tr>
+                    <tr>
+                      <th class="sortable clickable" data-sort="string">Name</th>
+                      <th class="clickable" data-sort="string">Size</th>
+                      <th class="sortable clickable" data-sort="date">Date</th>
+                        <th class="sortable clickable IA-overall" data-sort="number">Overall</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Action & Activity</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Story Description</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Plot Inference</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Object Identification & Description</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Contextual & Environmental</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Identity & Relationship</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Text & Symbols</th>
+                        <th class="hidden IA-details sortable clickable" data-sort="number">Count & Quantity</th>
+                        <th class="sortable clickable TI-overall" data-sort="number">Overall</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Action & Activity</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Story Description</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Plot Inference</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Object Identification & Description</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Contextual & Environmental</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Identity & Relationship</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Text & Symbols</th>
+                        <th class="hidden TI-details sortable clickable" data-sort="number">Count & Quantity</th>
+                        <th class="sortable clickable TA-overall" data-sort="number">Overall</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Action & Activity</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Story Description</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Plot Inference</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Object Identification & Description</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Contextual & Environmental</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Identity & Relationship</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Text & Symbols</th>
+                        <th class="hidden TA-details sortable clickable" data-sort="number">Count & Quantity</th>
+                        <th class="sortable clickable TIA-overall" data-sort="number">Overall</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Action & Activity</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Story Description</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Plot Inference</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Object Identification & Description</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Contextual & Environmental</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Identity & Relationship</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Text & Symbols</th>
+                        <th class="hidden TIA-details sortable clickable" data-sort="number">Count & Quantity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Table body will be populated dynamically -->
+                  </tbody>
+                </table>
+                <p class="test-desc"> Overall results of different models on the Omnibench leaderboard. "(T)" refers to the textual alternative of image and audio.</p>
+              </div>
+            </div>
             </div>
         <!-------------------------------------------------------------------- Difficulty Levels SECTION -------------------------------------------------------------------->
     </section>
