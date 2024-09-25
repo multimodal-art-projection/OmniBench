@@ -202,8 +202,10 @@ function resetTable() {
   document.querySelector('.TA-details-cell').setAttribute('colspan', '1');
   document.querySelector('.TIA-details-cell').setAttribute('colspan', '1');
 
-  var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
-  sortTable(valOverallHeader, true);
+  // var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
+  // sortTable(valOverallHeader, true);
+  var IAOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.IA-overall');
+  sortTable(IAOverallHeader, true);
 
   setTimeout(adjustNameColumnWidth, 0);
 }
@@ -275,8 +277,10 @@ function getCellValue(row, index) {
 }
 
 function initializeSorting() {
-  var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
-  sortTable(valOverallHeader, true);
+  // var valOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.val-overall');
+  // sortTable(valOverallHeader, true);
+  var IAOverallHeader = document.querySelector('#mmmu-table thead tr:last-child th.IA-overall');
+  sortTable(IAOverallHeader, true);
 }
 
 function adjustNameColumnWidth() {
