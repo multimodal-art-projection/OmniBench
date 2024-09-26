@@ -1,6 +1,6 @@
 # OmniBench
 
-[**🌐 Homepage**](https://m-a-p.ai/OmniBench/) | [**🏆 Leaderboard**](https://m-a-p.ai/OmniBench/#leaderboard) | [**📖 Arxiv Paper**](https://arxiv.org/) | [**🤗 Dataset**](https://huggingface.co/datasets/m-a-p/OmniBench)
+[**🌐 Homepage**](https://m-a-p.ai/OmniBench/) | [**🏆 Leaderboard**](https://m-a-p.ai/OmniBench/#leaderboard) | [**📖 Arxiv Paper**](https://arxiv.org/abs/2409.15272) | [**🤗 Paper**](https://huggingface.co/papers/2409.15272) | [**🤗 Dataset**](https://huggingface.co/datasets/m-a-p/OmniBench) | [**🦜 Tweets**](https://x.com/yizhilll/status/1838942877142962502)
 
 The project introduces **OmniBench**, a novel benchmark designed to rigorously evaluate models' ability to recognize, interpret, and reason across **visual**, **acoustic**, and **textual** inputs simultaneously. We define models capable of such tri-modal processing as omni-language models (OLMs).
 
@@ -10,14 +10,15 @@ This table shows the omni-language models in the full evaluation setting in Omni
 
 | **Input Context**   | **Image & Audio**    | **Audio**           | **Image**           |
 |---------------------|----------------------|---------------------|---------------------|
-| MIO-SFT (13B)       | 11.12%               | 11.82%              | 13.57%              |
-| AnyGPT (7B)         | 2.71%                | 2.36%               | 1.23%               |
-| video-SALMONN (13B) | 11.30%               | 11.56%              | 11.38%              |
-| UnifiedIO2-large (1.1B) | 22.68%           | 24.69%              | 24.52%              |
-| UnifiedIO2-xlarge (3.2B) | 20.40%          | 24.78%              | 24.34%              |
-| UnifiedIO2-xxlarge (6.8B) | 23.29%         | 27.06%              | 25.04%              |
-| Gemini-1.5-Pro      | 47.56%               | 38.53%              | 34.68%              |
-| Reka-core-20240501  | 36.10%               | 35.07%              | 34.39%              |
+| AnyGPT (7B) | 18.04% | 16.20% | 20.05% |
+| video-SALMONN (13B) | 35.64% | 35.90% | 34.94% |
+| UnifiedIO2-large (1.1B) | 27.06% | 29.07% | 29.07% |
+| UnifiedIO2-xlarge (3.2B) | 38.00% | 31.17% | 34.76% |
+| UnifiedIO2-xxlarge (6.8B) | 33.98% | 32.49% | 33.45% |
+| Gemini-1.5-Pro | 47.56% | 38.53% | 34.68% |
+| Reka-core-20240501 | 36.10% | 35.07% | 34.39% |
+
+
 
 ## Inference
 
