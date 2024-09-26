@@ -3,7 +3,7 @@ import argparse
 import sys
 sys.path.append("./inference")
 
-from answer_parsing import parse_multi_choice_response
+from answer_parsing import parse_multi_choice_response, split_string_by_options
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
@@ -56,6 +56,11 @@ if __name__=='__main__':
             continue
 
         options = row["options"]
+        if isinstance(options, str):
+            options = split_string_by_options(options)
+            for i in range(4):
+                current_option = chr(ord("A") + i)
+                options[i] = options[i].replace(f"{current_option}.", "").strip()
         all_choices = []
         index2ans = {}
 
@@ -66,7 +71,7 @@ if __name__=='__main__':
         
         response = results[index]['response']
 
-        parsed_response = parse_multi_choice_response(response, options, index2ans, default_answer='N/A')
+        parsed_response = parse_multi_choice_response(response, all_choices, index2ans, default_answer='N/A')
         correct_answer = parse_multi_choice_response(row['answer'], all_choices, index2ans, default_answer='N/A')
         
         assert correct_answer != 'N/A', f"Correct answer is not found in question {index} the options: {row['correct answer']}"
@@ -74,7 +79,8 @@ if __name__=='__main__':
         #     n_invalid_response += 1
         #     stats_by_audio_type[audio_type]['n_invalid_response'] += 1
         #     continue
-        if results[index]["is_correct"]: #parsed_response == correct_answer:
+        # results[index]["is_correct"]:
+        if parsed_response == correct_answer:
             n_correct_response += 1
             stats_by_audio_type[audio_type]['n_correct_response'] += 1
         else:
