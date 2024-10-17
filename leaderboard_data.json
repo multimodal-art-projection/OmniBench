@@ -66,6 +66,70 @@
     },
     {
       "info": {
+        "name": "VITA",
+        "size": "8x7B",
+        "date": "2024-10-14",
+        "type": "open_source_olm"
+      },
+      "image-audio": {
+        "speech": 31.52,
+        "sound event": 32.45,
+        "music": 46.23,
+        "action and activity": 35.86,
+        "story description": 33.04,
+        "plot inference": "29.54%",
+        "object identification and description": 33.65,
+        "contextual and environmental questions": 41.84,
+        "identity and relationship": 21.88,
+        "text and symbols": 16.00,
+        "count and quantity": 6.67,
+        "overall": 33.10
+    },
+      "textual_image": {
+        "speech": 31.26,
+        "sound event": 30.94,
+        "music": 37.74,
+        "action and activity": 31.87,
+        "story description": 30.0,
+        "plot inference": 29.96,
+        "object identification and description": 34.12,
+        "contextual and environmental questions": 41.13,
+        "identity and relationship": 28.12,
+        "text and symbols": 12.0,
+        "count and quantity": 6.67,
+        "overall": 31.79
+      },
+      "textual_audio": {
+        "speech": 38.0,
+        "sound event": 44.53,
+        "music": 65.09,
+        "action and activity": 51.39,
+        "story description": 43.04,
+        "plot inference": 39.24,
+        "object identification and description": 36.49,
+        "contextual and environmental questions": 46.1,
+        "identity and relationship": 31.25,
+        "text and symbols": 12.0,
+        "count and quantity": 26.67,
+        "overall": 42.03
+      },
+      "textual_image-audio": {
+        "speech": 40.86,
+        "sound event": 46.04,
+        "music": 64.15,
+        "action and activity": 51.39,
+        "story description": 44.78,
+        "plot inference": 43.04,
+        "object identification and description": 36.97,
+        "contextual and environmental questions": 51.77,
+        "identity and relationship": 37.5,
+        "text and symbols": 16.0,
+        "count and quantity": 26.67,
+        "overall": 44.22
+      }
+    },
+    {
+      "info": {
         "name": "AnyGPT",
         "size": "7B",
         "date": "2024-09-22",
