@@ -8,14 +8,15 @@ def split_string_by_options(input_string):
     return [match.strip() for match in matches[0]]
 
 
-def parse_multi_choice_response(response, all_choices, index2ans, default_answer=None):
+def parse_multi_choice_response(response, all_choices, index2ans, default_answer=None, do_strip=False):
     """
     Parse the prediction from the generated response.
     Return the predicted index e.g., A, B, C, D.
     https://github.com/MMMU-Benchmark/MMMU/blob/51ce7f3e829c16bb44bc5445782686b4c3508794/eval/eval_utils.py#L10
     """
-    for char in [",", ".", "!", "?", ";", ":", "'"]:
-        response = response.strip(char)
+    if do_strip:
+        for char in [",", ".", "!", "?", ";", ":", "'"]:
+            response = response.strip(char)
     response = " " + response + " "  # add space to avoid partial match
 
     index_ans = True
