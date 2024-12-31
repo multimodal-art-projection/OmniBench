@@ -162,7 +162,7 @@ if __name__=='__main__':
         options = df.loc[index, 'option']
         all_options = split_string_by_options(options)
         if index not in processed_indices:  # Check if the index has already been processed
-            index2ans = {chr(ord("A") + i): "" for i in range(4)}
+            index2ans = {}
             for j in range(len(all_choices)):
                index2ans[all_choices[j]] = all_options[j].replace(f"{all_choices[j]}.", "").strip()
             args_list.append((df.loc[index], index, args, index2ans, all_choices))
