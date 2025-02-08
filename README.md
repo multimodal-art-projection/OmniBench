@@ -1,8 +1,24 @@
 # OmniBench
 
-[**🌐 Homepage**](https://m-a-p.ai/OmniBench/) | [**🏆 Leaderboard**](https://m-a-p.ai/OmniBench/#leaderboard) | [**📖 Arxiv Paper**](https://arxiv.org/abs/2409.15272) | [**🤗 Paper**](https://huggingface.co/papers/2409.15272) | [**🤗 OmniBench Dataset**](https://huggingface.co/datasets/m-a-p/OmniBench) | | [**🤗 OmniInstruct_V1 Dataset**](https://huggingface.co/datasets/m-a-p/OmniInstruct_v1/) | [**🦜 Tweets**](https://x.com/yizhilll/status/1838942877142962502)
+[**🌐 Homepage**](https://m-a-p.ai/OmniBench/) | [**🏆 Leaderboard**](https://m-a-p.ai/OmniBench/#leaderboard) | [**📖 Arxiv Paper**](https://arxiv.org/abs/2409.15272) | [**🤗 Paper**](https://huggingface.co/papers/2409.15272) | [**🤗 OmniBench Dataset**](https://huggingface.co/datasets/m-a-p/OmniBench) | [**🤗 OmniInstruct_V1 Dataset**](https://huggingface.co/datasets/m-a-p/OmniInstruct_v1/) | [**🦜 Tweets**](https://x.com/yizhilll/status/1838942877142962502)
 
 The project introduces **OmniBench**, a novel benchmark designed to rigorously evaluate models' ability to recognize, interpret, and reason across **visual**, **acoustic**, and **textual** inputs simultaneously. We define models capable of such tri-modal processing as omni-language models (OLMs).
+
+## Dataset Loading
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("m-a-p/OmniBench")
+
+# check on the data samples
+print(dataset)
+print(dataset['train'][0])
+
+# similar for OmniInstruct
+dataset = load_dataset("m-a-p/OmniInstruct_v1")
+```
+
 
 ## Mini Leaderboard
 
