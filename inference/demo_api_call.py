@@ -154,19 +154,19 @@ if __name__=='__main__':
         results = [None for _ in range(df.shape[0])]
 
     all_choices = ['A', 'B', 'C', 'D']
-    index2ans = {chr(ord("A") + i): "" for i in range(4)}
+    
 
     # Prepare for multiprocessing
-    for i in range(df.shape[0]):
-        options = df.loc[i, 'option']
-        all_options = split_string_by_options(options)
-        for j in range(len(all_choices)):
-            index2ans[all_choices[j]] = all_options[j].replace(f"{all_choices[j]}.", "").strip()
-
     args_list = []
     for index in range(df.shape[0]):
+        options = df.loc[index, 'option']
+        all_options = split_string_by_options(options)
         if index not in processed_indices:  # Check if the index has already been processed
+            index2ans = {}
+            for j in range(len(all_choices)):
+               index2ans[all_choices[j]] = all_options[j].replace(f"{all_choices[j]}.", "").strip()
             args_list.append((df.loc[index], index, args, index2ans, all_choices))
+
 
     with Pool(processes=12) as pool:  # You can adjust the number of processes as needed
         results = list(tqdm(pool.imap(process_row, args_list), total=len(args_list)))
