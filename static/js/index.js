@@ -47,9 +47,19 @@ function loadTableData() {
             const nameCell = row.info.link && row.info.link.trim() !== '' ?
               `<a href="${row.info.link}" target="_blank"><b>${row.info.name}</b></a>` :
               `<b>${row.info.name}</b>`;
-            const sourceCell = row.info.source_link && row.info.source_link.trim() !== '' ?
-              `<a href="${row.info.source_link}" target="_blank">${row.info.source_type}</a>` :
-              row.info.source_type;
+            const sourceCell = (() => {
+              console.log('Creating source cell for:', row.info.name);
+              console.log('Source type:', row.info.source_type);
+              console.log('Source link:', row.info.source_link);
+              if (!row.info.source_type) {
+                console.warn('Missing source_type for:', row.info.name);
+                return '-';
+              }
+              if (row.info.source_link && row.info.source_link.trim() !== '') {
+                return `<a href="${row.info.source_link}" target="_blank">${row.info.source_type}</a>`;
+              }
+              return row.info.source_type;
+            })();
             const safeGet = (obj, path, defaultValue = '-') => {
               return path.split('.').reduce((acc, part) => acc && acc[part], obj) || defaultValue;
             };

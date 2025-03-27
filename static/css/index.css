@@ -74,8 +74,6 @@ body {
   object-fit: contain;
 }
 
-.publication-header .hero-body {
-}
 
 .publication-title,
 .publication-authors {
@@ -310,6 +308,23 @@ td:hover {
 
 #mmmu-table tbody td:first-child {
   text-align: left !important;
+}
+
+#mmmu-table th:nth-child(2),
+#mmmu-table td:nth-child(2) {
+  min-width: 120px;
+  max-width: 200px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+#mmmu-table td:nth-child(2) a {
+  color: #3273dc;
+  text-decoration: none;
+}
+
+#mmmu-table td:nth-child(2) a:hover {
+  text-decoration: underline;
 }
 
 #toggleButton {
