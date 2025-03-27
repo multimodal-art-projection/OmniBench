@@ -47,6 +47,9 @@ function loadTableData() {
             const nameCell = row.info.link && row.info.link.trim() !== '' ?
               `<a href="${row.info.link}" target="_blank"><b>${row.info.name}</b></a>` :
               `<b>${row.info.name}</b>`;
+            const sourceCell = row.info.source_link && row.info.source_link.trim() !== '' ?
+              `<a href="${row.info.source_link}" target="_blank">${row.info.source_type}</a>` :
+              row.info.source_type;
             const safeGet = (obj, path, defaultValue = '-') => {
               return path.split('.').reduce((acc, part) => acc && acc[part], obj) || defaultValue;
             };
@@ -68,8 +71,9 @@ function loadTableData() {
 
             tr.innerHTML = `
               <td>${nameCell}</td>
-              <td>${row.info.size}</td>
-              <td>${row.info.date}</td>
+              <td>${sourceCell}</td>
+              <td>${row.info.size || '-'}</td>
+              <td>${row.info.date || '-'}</td>
               <td class="IA-overall">${IAOverall}</td>
               <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.action_and_activity'), image_audio_Scores.action_and_activity[index])}</td>
               <td class="hidden IA-details">${applyStyle(safeGet(row, 'IA.story_description'), image_audio_Scores.story_description[index])}</td>

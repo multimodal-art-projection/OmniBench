@@ -2,10 +2,348 @@
   "leaderboardData": [
     {
       "info": {
+        "name": "Qwen2.5-Omni",
+        "size": "7B",
+        "date": "2025-03-27",
+        "type": "open_source_olm",
+        "source_type": "Self-reported",
+        "source_link": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "link": "https://github.com/QwenLM/Qwen2.5-Omni"
+      },
+      "image-audio": {
+        "speech": 55.25,
+        "sound event": 60.00,
+        "music": 52.83,
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 56.13
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "MiniCPM-o 2.6",
+        "size": "7B",
+        "date": "2025-01-26",
+        "type": "open_source_olm",
+        "source_type": "Third-party",
+        "source_link": "https://github.com/baichuan-inc/Baichuan-Omni-1.5",
+        "link": "https://github.com/OpenBMB/MiniCPM-o"
+      },
+      "image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 40.5
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 30.8
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 53.2
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 46.3
+      }
+    },
+    {
+      "info": {
+        "name": "Baichuan-Omni",
+        "size": "7B",
+        "date": "2025-01-26",
+        "type": "proprietary_olm",
+        "source_type": "Self-reported",
+        "source_link": "https://github.com/baichuan-inc/Baichuan-Omni-1.5",
+        "link": "https://github.com/OpenBMB/MiniCPM-o"
+      },
+      "image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 32.2
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 26.5
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 42.6
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 44.2
+      }
+    },
+    {
+      "info": {
+        "name": "Baichuan-Omni-1.5",
+        "size": "7B",
+        "date": "2025-01-26",
+        "type": "open_source_olm",
+        "source_type": "Self-reported",
+        "source_link": "https://github.com/baichuan-inc/Baichuan-Omni-1.5",
+        "link": "https://github.com/baichuan-inc/Baichuan-Omni-1.5"
+      },
+      "image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 42.9
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 37.7
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 47.9
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 46.9
+      }
+    },
+    {
+      "info": {
+        "name": "VITA-1.5",
+        "size": "7B",
+        "date": "2025-01-26",
+        "type": "open_source_olm",
+        "source_type": "Third-party",
+        "source_link": "https://github.com/baichuan-inc/Baichuan-Omni-1.5",
+        "link": "https://github.com/VITA-MLLM/VITA"
+      },
+      "image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 33.4
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 29.6
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 48.5
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": 47.2
+      }
+    },
+    {
+      "info": {
         "name": "video-Salmonn",
         "size": "13B",
         "date": "2024-09-22",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/pdf/2406.15704"
       },
       "image-audio": {
         "speech": 34.11,
@@ -30,7 +368,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -44,7 +382,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -58,7 +396,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -69,7 +407,10 @@
         "name": "VITA",
         "size": "8x7B",
         "date": "2024-10-14",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "Self-reported",
+        "source_link": "https://huggingface.co/multimodal-art-projection/VITA",
+        "link": "https://arxiv.org/abs/2409.15272"
       },
       "image-audio": {
         "speech": 31.52,
@@ -133,7 +474,10 @@
         "name": "AnyGPT",
         "size": "7B",
         "date": "2024-09-22",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://junzhan2000.github.io/AnyGPT.github.io/"
       },
       "image-audio": {
         "speech": 17.77,
@@ -158,7 +502,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -172,7 +516,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -186,7 +530,7 @@
         "identity_and_relationship": "-",
         "text_and_symbols": "-",
         "count_and_quantity": "-",
-        "overall": "[TBD]",
+        "overall": "-",
         "music": "-",
         "speech": "-",
         "sound_event": "-"
@@ -197,7 +541,10 @@
         "name": "UnifiedIO2-large",
         "size": "1.1B",
         "date": "2024-09-22",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://github.com/allenai/unified-io-2"
       },
       "image-audio": {
         "speech": 25.94,
@@ -261,7 +608,10 @@
         "name": "UnifiedIO2-xlarge",
         "size": "3.2B",
         "date": "2024-09-22",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://github.com/allenai/unified-io-2"
       },
       "image-audio": {
         "speech": 39.56,
@@ -325,7 +675,10 @@
         "name": "UnifiedIO2-xxlarge",
         "size": "6.8B",
         "date": "2024-09-22",
-        "type": "open_source_olm"
+        "type": "open_source_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://github.com/allenai/unified-io-2"
       },
       "image-audio": {
         "speech": 34.24,
@@ -389,7 +742,10 @@
         "name": "Gemini-1.5-Pro",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_olm"
+        "type": "proprietary_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2403.05530" 
       },
       "image-audio": {
         "speech": 42.67,
@@ -453,7 +809,10 @@
         "name": "GPT-4V-Preview",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_vlmalm"
+        "type": "proprietary_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://openai.com/index/gpt-4v-system-card/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -517,7 +876,10 @@
         "name": "GPT-4V-0409",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_vlmalm"
+        "type": "proprietary_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://openai.com/index/gpt-4v-system-card/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -581,7 +943,10 @@
         "name": "GPT4-o-mini",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_vlmalm"
+        "type": "proprietary_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://platform.openai.com/docs/overview/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -645,7 +1010,10 @@
         "name": "GPT4-o (0806)",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_vlmalm"
+        "type": "proprietary_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://platform.openai.com/docs/overview/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -709,7 +1077,10 @@
         "name": "Claude-3.5-Sonnet",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_vlmalm"
+        "type": "proprietary_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://platform.openai.com/docs/overview/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -773,7 +1144,10 @@
         "name": "Reka-core-20240501",
         "size": "-",
         "date": "2024-09-22",
-        "type": "proprietary_olm"
+        "type": "proprietary_olm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://www.reka.ai/ourmodels/"
       },
       "image-audio": {
         "speech": 31.89,
@@ -837,7 +1211,10 @@
         "name": "InternVL-2",
         "size": "2B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://internvl.github.io/blog/2024-07-02-InternVL-2.0/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -901,7 +1278,10 @@
         "name": "InternVL-2",
         "size": "8B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://internvl.github.io/blog/2024-07-02-InternVL-2.0/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -965,7 +1345,10 @@
         "name": "InternVL-2",
         "size": "26B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://internvl.github.io/blog/2024-07-02-InternVL-2.0/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1029,7 +1412,10 @@
         "name": "InternVL-2",
         "size": "40B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://internvl.github.io/blog/2024-07-02-InternVL-2.0/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1093,7 +1479,10 @@
         "name": "Idefics2",
         "size": "8B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://huggingface.co/blog/idefics2"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1154,74 +1543,80 @@
     },
     {
       "info": {
-          "name": "Mantis-Idefics2",
-          "size": "8B",
-          "date": "2024-09-22",
-          "type": "open_source_vlmalm"
+        "name": "Mantis-Idefics2",
+        "size": "8B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://tiger-ai-lab.github.io/Mantis/"
       },
       "image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_image": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_audio": {
-          "speech": 42.41,
-          "sound_event": 52.83,
-          "music": 56.6,
-          "overall": 46.15,
-          "action_and_activity": 49.8,
-          "story_description": 37.39,
-          "plot_inference": 44.73,
-          "object_identification_and_description": 50.71,
-          "contextual_and_environmental_questions": 58.16,
-          "identity_and_relationship": 25.0,
-          "text_and_symbols": 28.0,
-          "count_and_quantity": 40.0
+        "speech": 42.41,
+        "sound_event": 52.83,
+        "music": 56.6,
+        "overall": 46.15,
+        "action_and_activity": 49.8,
+        "story_description": 37.39,
+        "plot_inference": 44.73,
+        "object_identification_and_description": 50.71,
+        "contextual_and_environmental_questions": 58.16,
+        "identity_and_relationship": 25.0,
+        "text_and_symbols": 28.0,
+        "count_and_quantity": 40.0
       },
       "textual_image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       }
-  },
+    },
     {
       "info": {
         "name": "XComposer2-4KHD",
         "size": "7B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2404.06512/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1285,7 +1680,10 @@
         "name": "Deepseek-VL-Chat",
         "size": "7B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1349,7 +1747,10 @@
         "name": "Cambrian",
         "size": "8B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://cambrian-mllm.github.io/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1413,7 +1814,10 @@
         "name": "Cambrian",
         "size": "13B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://cambrian-mllm.github.io/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1477,7 +1881,10 @@
         "name": "Cambrian",
         "size": "34B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://cambrian-mllm.github.io/"
       },
       "image-audio": {
         "action_and_activity": "-",
@@ -1538,140 +1945,149 @@
     },
     {
       "info": {
-          "name": "Qwen2-VL-Chat",
-          "size": "2B",
-          "date": "2024-09-22",
-          "type": "open_source_vlmalm"
+        "name": "Qwen2-VL-Chat",
+        "size": "2B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2409.12191"
       },
       "image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_image": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_audio": {
-          "speech": 40.21,
-          "sound_event": 38.49,
-          "music": 68.87,
-          "overall": 42.47,
-          "action_and_activity": 43.03,
-          "story_description": 43.04,
-          "plot_inference": 44.73,
-          "object_identification_and_description": 37.44,
-          "contextual_and_environmental_questions": 46.1,
-          "identity_and_relationship": 31.25,
-          "text_and_symbols": 36.0,
-          "count_and_quantity": 60.0
+        "speech": 40.21,
+        "sound_event": 38.49,
+        "music": 68.87,
+        "overall": 42.47,
+        "action_and_activity": 43.03,
+        "story_description": 43.04,
+        "plot_inference": 44.73,
+        "object_identification_and_description": 37.44,
+        "contextual_and_environmental_questions": 46.1,
+        "identity_and_relationship": 31.25,
+        "text_and_symbols": 36.0,
+        "count_and_quantity": 60.0
       },
       "textual_image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       }
-  },
+    },
     {
       "info": {
-          "name": "Qwen2-VL-Chat",
-          "size": "7B",
-          "date": "2024-09-22",
-          "type": "open_source_vlmalm"
+        "name": "Qwen2-VL-Chat",
+        "size": "7B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2409.12191"
       },
       "image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_image": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       },
       "textual_audio": {
-          "speech": 42.93,
-          "sound_event": 56.6,
-          "music": 69.81,
-          "overall": 48.6,
-          "action_and_activity": 60.96,
-          "story_description": 43.48,
-          "plot_inference": 51.48,
-          "object_identification_and_description": 36.97,
-          "contextual_and_environmental_questions": 56.03,
-          "identity_and_relationship": 34.38,
-          "text_and_symbols": 24.0,
-          "count_and_quantity": 40.0
+        "speech": 42.93,
+        "sound_event": 56.6,
+        "music": 69.81,
+        "overall": 48.6,
+        "action_and_activity": 60.96,
+        "story_description": 43.48,
+        "plot_inference": 51.48,
+        "object_identification_and_description": 36.97,
+        "contextual_and_environmental_questions": 56.03,
+        "identity_and_relationship": 34.38,
+        "text_and_symbols": 24.0,
+        "count_and_quantity": 40.0
       },
       "textual_image-audio": {
-          "action_and_activity": "-",
-          "story_description": "-",
-          "plot_inference": "-",
-          "object_identification_and_description": "-",
-          "contextual_and_environmental_questions": "-",
-          "identity_and_relationship": "-",
-          "text_and_symbols": "-",
-          "count_and_quantity": "-",
-          "overall": "-",
-          "music": "-",
-          "speech": "-",
-          "sound_event": "-"
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
       }
-  },
-  {
-    "info": {
+    },
+    {
+      "info": {
         "name": "LLaVA-OneVision",
         "size": "0.5B",
         "date": "2024-09-22",
-        "type": "open_source_vlmalm"
-    },
-    "image-audio": {
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2408.03326"
+      },
+      "image-audio": {
         "action_and_activity": "-",
         "story_description": "-",
         "plot_inference": "-",
@@ -1684,8 +2100,8 @@
         "music": "-",
         "speech": "-",
         "sound_event": "-"
-    },
-    "textual_image": {
+      },
+      "textual_image": {
         "action_and_activity": "-",
         "story_description": "-",
         "plot_inference": "-",
@@ -1698,8 +2114,8 @@
         "music": "-",
         "speech": "-",
         "sound_event": "-"
-    },
-    "textual_audio": {
+      },
+      "textual_audio": {
         "speech": 35.15,
         "sound_event": 39.62,
         "music": 54.72,
@@ -1712,8 +2128,8 @@
         "identity_and_relationship": 21.88,
         "text_and_symbols": 24.0,
         "count_and_quantity": 13.33
-    },
-    "textual_image-audio": {
+      },
+      "textual_image-audio": {
         "action_and_activity": "-",
         "story_description": "-",
         "plot_inference": "-",
@@ -1726,71 +2142,74 @@
         "music": "-",
         "speech": "-",
         "sound_event": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "LLaVA-OneVision",
+        "size": "7B",
+        "date": "2024-09-22",
+        "type": "open_source_vlmalm",
+        "source_type": "OmniBench",
+        "source_link": "https://arxiv.org/abs/2409.15272",
+        "link": "https://arxiv.org/abs/2408.03326"
+      },
+      "image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_image": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      },
+      "textual_audio": {
+        "speech": 44.36,
+        "sound_event": 49.43,
+        "music": 60.38,
+        "overall": 47.02,
+        "action_and_activity": 56.57,
+        "story_description": 43.91,
+        "plot_inference": 50.63,
+        "object_identification_and_description": 33.18,
+        "contextual_and_environmental_questions": 60.28,
+        "identity_and_relationship": 21.88,
+        "text_and_symbols": 28.0,
+        "count_and_quantity": 33.33
+      },
+      "textual_image-audio": {
+        "action_and_activity": "-",
+        "story_description": "-",
+        "plot_inference": "-",
+        "object_identification_and_description": "-",
+        "contextual_and_environmental_questions": "-",
+        "identity_and_relationship": "-",
+        "text_and_symbols": "-",
+        "count_and_quantity": "-",
+        "overall": "-",
+        "music": "-",
+        "speech": "-",
+        "sound_event": "-"
+      }
     }
-},
-{
-  "info": {
-      "name": "LLaVA-OneVision",
-      "size": "7B",
-      "date": "2024-09-22",
-      "type": "open_source_vlmalm"
-  },
-  "image-audio": {
-      "action_and_activity": "-",
-      "story_description": "-",
-      "plot_inference": "-",
-      "object_identification_and_description": "-",
-      "contextual_and_environmental_questions": "-",
-      "identity_and_relationship": "-",
-      "text_and_symbols": "-",
-      "count_and_quantity": "-",
-      "overall": "-",
-      "music": "-",
-      "speech": "-",
-      "sound_event": "-"
-  },
-  "textual_image": {
-      "action_and_activity": "-",
-      "story_description": "-",
-      "plot_inference": "-",
-      "object_identification_and_description": "-",
-      "contextual_and_environmental_questions": "-",
-      "identity_and_relationship": "-",
-      "text_and_symbols": "-",
-      "count_and_quantity": "-",
-      "overall": "-",
-      "music": "-",
-      "speech": "-",
-      "sound_event": "-"
-  },
-  "textual_audio": {
-      "speech": 44.36,
-      "sound_event": 49.43,
-      "music": 60.38,
-      "overall": 47.02,
-      "action_and_activity": 56.57,
-      "story_description": 43.91,
-      "plot_inference": 50.63,
-      "object_identification_and_description": 33.18,
-      "contextual_and_environmental_questions": 60.28,
-      "identity_and_relationship": 21.88,
-      "text_and_symbols": 28.0,
-      "count_and_quantity": 33.33
-  },
-  "textual_image-audio": {
-      "action_and_activity": "-",
-      "story_description": "-",
-      "plot_inference": "-",
-      "object_identification_and_description": "-",
-      "contextual_and_environmental_questions": "-",
-      "identity_and_relationship": "-",
-      "text_and_symbols": "-",
-      "count_and_quantity": "-",
-      "overall": "-",
-      "music": "-",
-      "speech": "-",
-      "sound_event": "-"
-  }
-}
   ]
 }
