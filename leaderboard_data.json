@@ -69,6 +69,73 @@
     },
     {
       "info": {
+        "name": "OpenOmni",
+        "size": "7B",
+        "date": "2025-01-08",
+        "type": "open_source_olm",
+        "source_type": "Self-reported",
+        "source_link": "https://arxiv.org/abs/2501.04561",
+        "link": "https://arxiv.org/abs/2501.04561"
+      },
+      "image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": 36.65,
+        "story description": 45.65,
+        "plot inference": 32.91,
+        "object identification and description": 44.08,
+        "contextual and environmental questions": 48.23,
+        "identity and relationship": 34.38,
+        "text and symbols": 24.00,
+        "count and quantity":33.33,
+        "overall": 37.40
+    },
+      "textual_image": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      },
+      "textual_audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      },
+      "textual_image-audio": {
+        "speech": "-",
+        "sound event": "-",
+        "music": "-",
+        "action and activity": "-",
+        "story description": "-",
+        "plot inference": "-",
+        "object identification and description": "-",
+        "contextual and environmental questions": "-",
+        "identity and relationship": "-",
+        "text and symbols": "-",
+        "count and quantity": "-",
+        "overall": "-"
+      }
+    },
+    {
+      "info": {
         "name": "MiniCPM-o 2.6",
         "size": "7B",
         "date": "2025-01-26",
